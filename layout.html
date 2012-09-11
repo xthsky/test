@@ -1,0 +1,102 @@
+<!doctype html>
+<title>SRP Layout</title>
+<meta charset="utf-8">
+<style>
+    body {
+        margin: 0;
+        _zoom: 1;
+    }
+    div {
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+    #meta,
+    #nav,
+    #main,
+    #ext1,
+    #ext2 {
+        float: left; _display: inline;
+        position: relative;
+        left: 50%;
+        margin-left: -600px;
+    }
+    #meta {
+        width: 1000px;
+        height: 30px;
+        line-height: 30px;
+    }
+    #nav {
+        clear: left;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        *height: 0;
+        _line-height: 0;
+    }
+    #main {
+        *clear: left;
+        margin-left: -400px;
+        width: 800px;
+        height: 80px;
+        line-height: 80px;
+    }
+    #ext1 {
+        clear: left;
+        width: 1000px;
+    }
+    #ext2 {
+        float: none; _display: block;
+        margin-left: 400px;
+        width: 200px;
+        height: 135px;
+        line-height: 135px;
+        _position: static;
+        _margin-left: 50%;
+        _padding-left: 400px;
+    }
+    #footer {
+        clear: both;
+    }
+</style>
+
+<div id="header">Header</div>
+    <div id="meta">Meta</div>
+    <div id="nav">Nav</div>
+    <div id="main">Main</div>
+    <div id="ext1">Ext1</div>
+    <div id="ext2">Ext2</div>
+<div id="footer">Footer</div>
+
+<!-- Related Bug List: -->
+<!-- IE6 IE7 IE8(Q) 中对浮动元素上 'clear' 特性的解释出现错误，使其自身位置和其后浮动元素的位置与其他浏览器中不同
+    ref: http://w3help.org/zh-cn/causes/RM8008 -->
+<!-- IE6 IE7 IE8(Q) 中零高度的浮动元素会阻挡其兄弟浮动元素
+    ref: http://w3help.org/zh-cn/causes/RM1004 -->
+<!-- IE6 IE7 IE8(Q) 中触发 hasLayout 的空块级非替换元素的高度不是 0
+    ref: http://w3help.org/zh-cn/causes/RD1013 -->
+<!-- IE5.0 IE5.5 IE6 中浮动元素在某些情况下会有双倍外边距
+    ref: http://w3help.org/zh-cn/causes/RX1001 -->
+<script>
+    function color() {
+        var index = Math.floor(color.AVALIABLE.length * Math.random());
+        var ret = color.AVALIABLE[index];
+
+        color.LAST.push(ret);
+        color.AVALIABLE.splice(index, 1);
+
+        if (color.LAST.length > 3) {
+            color.AVALIABLE.push( color.LAST.shift() );
+        }
+
+        return ret;
+    }
+    color.AVALIABLE = ['#ccc', '#bbb', '#aaa', '#999', '#888', '#777'];
+    color.LAST = [];
+
+    var divs = document.getElementsByTagName('div');
+    for (var i=0; i<divs.length; i++) {
+        if (!divs[i].id) continue;
+        divs[i].style.backgroundColor = color();
+    }
+</script>
