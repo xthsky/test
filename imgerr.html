@@ -1,0 +1,21 @@
+<!doctype html>
+<title>Image Error Test</title>
+<meta charset="utf-8">
+<script src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js"></script>
+<script>
+function srp_img_error(el, p) {
+    el.onerror = null;
+    el.src = 'http://sky/test/default_img_220.jpg' +
+        '?img=' + encodeURIComponent( el.src ) +
+        (p ? '&' + p : '');
+}
+</script>
+<img onerror="srp_img_error(this,'n=0');" data-ks-lazyload="http://img02.taobaocdn.com/imgextra/etao/i2/T14RzEXchpXXbmqTc__110537.jpg_b.jpg" src='http://img04.taobaocdn.com/tps/i4/T10wDBXX4kXXc.LCDe-40-18.gif'/>
+<img onerror="srp_img_error(this,'n=1');" data-ks-lazyload="http://img02.taobaocdn.com/imgextra/etao/i2/T14RzEXchpXXbmqTc__110537.jpg_b.jpg" src='http://sky/loading/404.gif'/>
+<img onerror="srp_img_error(this,'n=2');" data-ks-lazyload="http://sky/photo/404.jpg" src='http://img04.taobaocdn.com/tps/i4/T10wDBXX4kXXc.LCDe-40-18.gif'/>
+<img onerror="srp_img_error(this,'n=3');" data-ks-lazyload="http://sky/photo/404.jpg" src='http://sky/loading/404.gif'/>
+<script>
+KISSY.use('datalazyload', function (S, Datalazyload) {
+    new Datalazyload('body');
+});
+</script>
