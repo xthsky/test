@@ -8,13 +8,36 @@
     <base target="_blank"> 
     <link rel="search" type="application/opensearchdescription+xml" title="一淘搜索" href="/opensearch.xml" />    <script src="http://a.tbcdn.cn/p/jstracker/jstracker.js" data-jstracker-rate="10" data-jstracker-apiKey="etaofp"></script>
     <link rel="shortcut icon" href="http://www.etao.com/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="http://a.tbcdn.cn/apps/e/ecommon/120910/header.css" />
+<link rel="stylesheet" href="http://a.tbcdn.cn/apps/e/ecommon/120922/header.css" />
 <script src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js?t=111229.js" ></script>
-<script src="http://a.tbcdn.cn/apps/e/ecommon/120910/header.js" ></script>	
-    <link rel="stylesheet" href="http://a.tbcdn.cn/apps/e/ehome/120824/ehome.css"/>
+<script src="http://a.tbcdn.cn/apps/e/ecommon/120925/header.js" ></script>	
+    <link rel="stylesheet" href="http://a.tbcdn.cn/apps/e/ehome/120918/ehome.css"/>
     <link rel="stylesheet" href="block.css"/>
    </head>
-<body>
+<body><script type="text/javascript">
+(function (d) {
+var ta=d.createElement("script");ta.type="text/javascript";ta.async=true;ta.id="tb-beacon-ac";
+ta.setAttribute("exparams","category=&userid=&channel=112&");
+ta.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/ac-etao.js";
+d.getElementsByTagName("head")[0].appendChild(ta);
+})(document);
+</script>
+<script type="text/javascript">
+(function (d) {
+var ta=d.createElement("script");ta.type="text/javascript";ta.async=true;ta.id="tb-beacon";
+ta.setAttribute("exparams","category=&userid=&tid=5f6319cb4ba6270b875ad9fb38cb6134&channel=112&atpanel_end");
+ta.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/atp.js";
+d.getElementsByTagName("head")[0].appendChild(ta);
+})(document);
+</script>
+<script type="text/javascript">
+(function (d) {
+var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=&aplus");
+t.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
 
 <script>
 if(KISSY.DOM.viewportWidth() < 1220 && KISSY.UA.ie < 9) KISSY.DOM.addClass(document.body, 'w990');
@@ -24,6 +47,7 @@ if(KISSY.DOM.viewportWidth() < 1220 && KISSY.UA.ie < 9) KISSY.DOM.addClass(docum
      <div id="etao-nav-bd" class="clear-fix">
 <div class="nav-links">
     <p class="login-info"></p><script>ETao.Header.writeLoginInfo();</script>
+    <a style="float:left;padding-right:50px;background:57px 1px url(http://img03.taobaocdn.com/tps/i3/T1.kDOXg8lXXXNm4_g-45-20.png) no-repeat;" class="sep nav-link-item" href="http://invite.etao.com/my_invitation.htm">邀请有奖</a>
     <a style="float:left" class="sep nav-link-item" href="http://fanli.etao.com/my/user_rebate.htm">我的返利</a>
     <a style="float:left" class="sep nav-link-item" href="http://i.etao.com/trade/orderlist.html" data-stat="etao.etao_sy.dd.my_etao.order">我的订单</a>
     <div id="J_Myetao" class="myetao more-list" >
@@ -38,15 +62,113 @@ if(KISSY.DOM.viewportWidth() < 1220 && KISSY.UA.ie < 9) KISSY.DOM.addClass(docum
 </div>
 <script>ETao.Header.init();</script>    </div>
 </div>
- <div id="etao-header" class="clear-fix ">
-	<div id="etao-header-bd" class="clear-fix etao-default-logo ">
+ <div id="etao-header" class="clear-fix etao-header-shiliang">
+	<div id="etao-header-bd" class="clear-fix  ">
 
-<div id="etao-logo">
-                <a class="etao-main-logo" target="_top" href="http://www.etao.com/" data-stat="dgp=t0&dgt=9">
+<style>
+ #etao-logo {
+  width: 87px;
+}     
+#etao-logo .etao-main-logo {
+height: 43px;
+min-width: 84px;
+display: inline-block;
+_display: inline;
+float: left;
+}
+.etao-main-logo  span{
+  line-height: 60px;
+height: 60px;
+}
+.etao-logo-iconfont {
+	display: none;
+}
+ #etao-logo .etao-logo-img {
+top: -7px;
+left: 0;
+}
+ @font-face {font-family: 'uxiconfont';
+    src: url('http://t.tbcdn.cn/apps/e/ehome/font/uxiconfont.eot'); /* IE9*/
+    src: url('http://t.tbcdn.cn/apps/e/ehome/font/uxiconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('http://t.tbcdn.cn/apps/e/ehome/font/uxiconfont.woff') format('woff'), /* chrome、firefox */
+    url('http://t.tbcdn.cn/apps/e/ehome/font/uxiconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('http://t.tbcdn.cn/apps/e/ehome/font/uxiconfont.svg#svgFontName') format('svg'); /* iOS 4.1- */
+}
+@media only screen{
+	.etao-logo-iconfont {
+		font-family:"uxiconfont";font-size:16px;font-style:normal;
+		display: block;
+	}
+   #etao-logo .etao-main-logo {
+		text-decoration: none;
+		margin-top:  -17px;
+	}
+	.etao-iconfont-top{font-size:41px; color:#488fcd;}
+	.etao-iconfont-bottom {font-size:42px; margin-top:-44px; color:#969696;margin-left:-4px;}
+	#etao-logo .etao-main-logo .etao-logo-img ,#etao-logo .etao-main-logo b {
+		display: none;
+	}
+}
+</style>
+
+
+<div id="etao-logo" >
+	<a data-stat="" href="http://www.etao.com/" target="_top" class="etao-main-logo" hidefocus="true">
+		<span class="etao-logo-iconfont etao-iconfont-top ">&#233</span>
+		<span class="etao-logo-iconfont etao-iconfont-bottom">&#231</span>
+
 <b>一淘</b>
-<img title="一淘网 etao.com" alt="" width="88px" height="57px" src="http://img01.taobaocdn.com/tps/i1/T1HyO8Xl8iXXXXXXXX-88-57.png">
-</a>
-</div>        <div class="etao-search">
+<img title="一淘网 etao.com" class="etao-logo-img" alt="" width="88px" height="57px" src="http://img01.taobaocdn.com/tps/i1/T1HyO8Xl8iXXXXXXXX-88-57.png">
+	</a>
+</div>
+<style>
+.etao-header-vip #etao-logo .etao-main-logo b,
+.etao-header-vip #etao-logo .etao-sub-logo b,
+ #etao-nav-sec .etao-header-vip li a.cur {
+    color: #F82500;
+}
+
+.etao-header-vip .etao-search .s-bg-outer.focus,
+.etao-header-vip .s-bg-outer.focus .s-menu-container {
+    background-color: #F82500;
+}
+</style>
+        <style>
+#etao-nav {
+     *position: relative;
+    *z-index: 99999;
+}
+
+#etao-header {
+    *position: relative;
+    *z-index: 1;
+}
+
+#right-common-banner {
+    float: right;
+    _margin-left:-3px;
+    width: 140px;
+    height: 43px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+#right-common-banner a {
+    display: block;
+    width: 140px;
+    height: 43px;
+    overflow: hidden;
+}
+</style>
+<div id="right-common-banner">
+     
+    <a target="_blank" href="http://s.etao.com/search?q=%D2%BB%CC%D4%CB%AB11">
+         <img width="140px" height="43px" src="http://img02.taobaocdn.com/tps/i2/T1Li2RXmFoXXb_iR_X-140-43.gif" alt="一淘双十一"/>
+    </a>
+
+</div>
+        <div class="etao-search">
             <form action="/search" method="get" id="J_etaoForm" target="_self">
                 <fieldset tabindex="0">
                     <legend>一淘搜索框</legend>
@@ -84,15 +206,39 @@ if(KISSY.DOM.viewportWidth() < 1220 && KISSY.UA.ie < 9) KISSY.DOM.addClass(docum
                 </div>
             </div>
         </fieldset>
-<input type="hidden" name="initiative_id" value="etao_20120911" />            </form>
+<input type="hidden" name="initiative_id" value="etao_20121016" />            </form>
         </div>
 
     </div>
 </div>
 	<script> 
 new KISSY.searchTabBox();       </script>
-<div id="etao-nav-bar">
+<div class="hot-wrap">
+<div class="hot-words">
+			
+							<a class="hot-word" href="http://s.etao.com/search?spm=0.0.0.379.2bfac2&q=%C8%C8%CF%FA&initiative_id=setao_20121011&stp=etao.etao_act1111.stand.banner1" title="销量冠军" target="_self" data-stat="etao.etao_sy.search_box.query.1">销量冠军</a>
+							<a class="hot-word" href="http://s.etao.com/search?q=%C7%EF%B6%AC%C1%AC%D2%C2%C8%B9&initiative_id=etao_20121010" title="秋冬连衣裙" target="_self" data-stat="etao.etao_sy.search_box.query.2">秋冬连衣裙</a>
+							<a class="hot-word" href="http://s.etao.com/search?q=%D5%EB%D6%AF%C9%C0&initiative_id=setao_20121015" title="针织衫" target="_self" data-stat="etao.etao_sy.search_box.query.3">针织衫</a>
+							<a class="hot-word" href="http://s.etao.com/search?q=%D5%EB%D6%AF%C9%C0&initiative_id=setao_20121015" title="毛衣" target="_self" data-stat="etao.etao_sy.search_box.query.4">毛衣</a>
+							<a class="hot-word" href="http://s.etao.com/search?q=%B4%F2%B5%D7%BF%E3&initiative_id=setao_20121015" title="打底裤" target="_self" data-stat="etao.etao_sy.search_box.query.5">打底裤</a>
+							<a class="hot-word" href="http://s.etao.com/search?q=%B0%D9%C8%B8%C1%E7&initiative_id=etao_20121015" title="百雀羚" target="_self" data-stat="etao.etao_sy.search_box.query.8">百雀羚</a>
+							<a class="hot-word" href="http://s.etao.com/item/7845976.html?spm=1002.8.0.45.5eef8b&sku=3call&tab=comment#J_detail_tabs_label" title="三星i9300" target="_self" data-stat="etao.etao_sy.search_box.query.6">三星i9300</a>
+							<a class="hot-word" href="http://s.etao.com/search?q=New+ipad&initiative_id=etao_20121015" title="New ipad" target="_self" data-stat="etao.etao_sy.search_box.query.7">New ipad</a>
+						
+		</div>
+</div><div id="etao-nav-bar">
 	<style>
+@media (max-width: 1220px) {
+div.hot-wrap {
+      width: 990px;	
+}
+}
+.w990 .hot-wrap {
+	width: 990px;	
+}
+.tcc-submit  .tcc-form-main  .tcc-tip {
+    color: #06D;
+}
 .hc-info-jf b.hc-info-jf-point {
    color: #fff;
 }
@@ -136,161 +282,10 @@ new KISSY.searchTabBox();       </script>
 
 </div>
 <div id="etao-app-content" role="presentation">
-<div class="sales clear-fix">
-    <div class="sales-hd mod-title">
-                    <h2 class="hd">
-                        Brix Style局部应用案例<b class="sales-title"></b>
-                    </h2>
-    </div>
-   <div class="sales-bd">
-           <div class="bx-v1_0 sales-list">
-    <div class="sales-news-text">
-        <ul>
-            <li><a class="text-hide" href="http://sale.etao.com/?id=81909" data-stat="etao.etao_sy.cxhd.gg.1"><b>Brix Style局部应用案例: </b></a></li>
-            <li><a href="#" class="btn btn-xlarge btn-orange"><i class="iconfont">&#336;</i> Context Style</a></li>
-        </ul>
-    </div>
-	
-        <a class="sales-news-banner" href="http://sale.etao.com/?id=81074" title="Justyle----女为悦己者容----89元起" data-stat="etao.etao_sy.cxhd.gg.pic">
-        <img src="http://img01.taobaocdn.com/tps/i1/T1WBYLXo4eXXbJgpLC-260-120.png" width="260" height="120" alt="Justyle----女为悦己者容----89元起"><i></i>    </a>
-	
-</div>
-		    <div class="cat-banner">
-                <div class="main-banner">
 
-	<a href="http://sale.etao.com/?id=81314" class="banner-img" data-stat="etao.etao_sy.cxhd.tab1"><img width="200" height="300" src="http://img01.taobaocdn.com/tps/i1/T1t3YLXipiXXaCwpjX.png" alt="乐蜂网---庆丝塔芙入驻四周年---全场满200减100"/></a>
+<!--首屏广告区-->
+<p class="bx-v1_0">Brix Style局部应用案例<a href="#" class="btn btn-xlarge btn-orange"><i class="iconfont">&#336;</i> Context Style</a></p>
 
-
-	<a href="http://sale.etao.com/?id=79844" class="banner-img" data-stat="etao.etao_sy.cxhd.tab2"><img width="250" height="300" src="http://img02.taobaocdn.com/tps/i2/T1b2TCXnxpXXaCwpjX.png" alt="淘鞋网----焕然一新---乔丹全场89元起"/></a>
-
-
-	<a href="http://sale.etao.com/?id=82006" class="banner-img" data-stat="etao.etao_sy.cxhd.tab3"><img width="250" height="300" src="http://img03.taobaocdn.com/tps/i3/T1Td2MXh8bXXaCwpjX.png" alt="阿芙四季堂---三周年店庆---全场买就送"/></a>
-
-</div>
-                <div id="J_CatBannerSwitch" class="cat-banner-switch">
-
-	<a href="http://sale.etao.com/?id=81230" class="switch-img J_BannerSwitchImg1" data-stat="etao.etao_sy.cxhd.tab4"><img width="330" height="120" src="http://img02.taobaocdn.com/tps/i2/T11YHMXihaXXaCwpjX.png" alt="Tmall天猫----中秋尝鲜礼 天猫双节庆---大牌月饼新品首发"/></a>
-
-
-	<a href="http://sale.etao.com/?id=80924" class="switch-img J_BannerSwitchImg2" data-stat="etao.etao_sy.cxhd.tab5"><img width="330" height="120" src="http://img03.taobaocdn.com/tps/i3/T1u4nMXflXXXaCwpjX.png" alt="飞虎乐购----开学季 十天疯降---全场促销进行中"/></a>
-
-
-	<a href="http://sale.etao.com/?id=79635" class="switch-img J_BannerSwitchImg3" data-stat="etao.etao_sy.cxhd.tab6"><img width="330" height="120" src="http://img01.taobaocdn.com/tps/i1/T1FqbMXa8eXXaCwpjX.png" alt="母婴之家----2012秋款上市---宝宝服饰抢鲜3折起"/></a>
-
-
-	<a href="http://sale.etao.com/?id=79775" class="last-img" data-stat="etao.etao_sy.cxhd.tab7"><img width="200" height="120" src="http://img02.taobaocdn.com/tps/i2/T1pYzIXiFrXXaCwpjX.png" alt="1号店----1元吃遍全球---每天8款疯狂秒杀"/></a>
-
-</div>
-		    </div>
-                <div class="side-banner">
-
-<a href="http://sale.etao.com/?id=80365" class="banner-img banner-l" data-stat="etao.etao_sy.cxhd.tab8"><img width="200" height="120" src="http://img02.taobaocdn.com/tps/i2/T1RvrHXc4mXXaCwpjX.png" alt="易迅----索尼数码暑促三重礼---全场抢购！"/></a>
-
-
-<a href="http://sale.etao.com/?id=81632" class="banner-img banner-s" data-stat="etao.etao_sy.cxhd.tab9"><img width="200" height="300" src="http://img03.taobaocdn.com/tps/i3/T1mpHHXlFpXXaCwpjX.png" alt="国美电脑--联合一淘全网比价----见证低价奇迹"/></a>
-
-</div>
-     </div>
-</div>
-    <div class="J_NewMember new-member-wrap ">
-            <div class="J_NewMenu new-memeber-menu "></div>
-            <div class="J_Folder new-folder">   
-                    <div class="new-member ">
-    <ul class="new-items clear-fix">
-              <li class="new-item">
-            <div class="new-item-wrapper">
-                <a  class="new-item-link" href="http://detail.etao.com/15809227153.htm?rebatepartner=191" target="_blank">
-                    <img src="http://img03.taobaocdn.com/imgextra/i3/725149490/T2n2WwXg8bXXXXXXXX_!!725149490.png"/>
-                </a>
-                <div class="new-num">
-                        <p class="new-num-title">限量</p>
-                        <p class="new-num-no">2000</p>
-                </div>
-            </div>
-            <p class="new-name"><a href="http://detail.etao.com/15809227153.htm?rebatepartner=191" title="BOUTIQ保蒂克 餐具">BOUTIQ保蒂克 餐具</a></p>
-            <p class="new-price-prev">
-                <del class="new-price-del">
-                    <span class="new-del-content">
-                    原价：<span class="unit">&yen;</span><span>19.90</span>
-                    </span>
-                </del>
-            </p>
-            <p class="new-price">
-                new人价：<span class="unit">&yen;</span><strong class="new-price-current">9.9</strong>
-            </p>
-        </li>
-       <li class="new-item">
-            <div class="new-item-wrapper">
-                <a  class="new-item-link" href="http://detail.etao.com/9678966998.htm?rebatepartner=191" target="_blank">
-                    <img src="http://img01.taobaocdn.com/imgextra/i1/186687659/T2NVWiXfNbXXXXXXXX_!!186687659.jpg"/>
-                </a>
-                <div class="new-num">
-                        <p class="new-num-title">限量</p>
-                        <p class="new-num-no">1000</p>
-                </div>
-            </div>
-            <p class="new-name"><a href="http://detail.etao.com/9678966998.htm?rebatepartner=191" title="PBA YangSang靓眼防水眼线笔">PBA YangSang靓眼防水眼线笔</a></p>
-            <p class="new-price-prev">
-                <del class="new-price-del">
-                    <span class="new-del-content">
-                    原价：<span class="unit">&yen;</span><span>29.00</span>
-                    </span>
-                </del>
-            </p>
-            <p class="new-price">
-                new人价：<span class="unit">&yen;</span><strong class="new-price-current">9.9</strong>
-            </p>
-        </li>
-       <li class="new-item">
-            <div class="new-item-wrapper">
-                <a  class="new-item-link" href="http://detail.etao.com/13773509432.htm?rebatepartner=191" target="_blank">
-                    <img src="http://img03.taobaocdn.com/imgextra/i3/711632186/T2.ouKXcNaXXXXXXXX_!!711632186.jpg"/>
-                </a>
-                <div class="new-num">
-                        <p class="new-num-title">限量</p>
-                        <p class="new-num-no">2000</p>
-                </div>
-            </div>
-            <p class="new-name"><a href="http://detail.etao.com/13773509432.htm?rebatepartner=191" title="心连心手撕鱿鱼丝">心连心手撕鱿鱼丝</a></p>
-            <p class="new-price-prev">
-                <del class="new-price-del">
-                    <span class="new-del-content">
-                    原价：<span class="unit">&yen;</span><span>13.99</span>
-                    </span>
-                </del>
-            </p>
-            <p class="new-price">
-                new人价：<span class="unit">&yen;</span><strong class="new-price-current">9.9</strong>
-            </p>
-        </li>
-       <li class="new-item">
-            <div class="new-item-wrapper">
-                <a  class="new-item-link" href="http://detail.etao.com/15648309799.htm?rebatepartner=191" target="_blank">
-                    <img src="http://img04.taobaocdn.com/imgextra/i4/892311529/T2uxuEXiRbXXXXXXXX_!!892311529.jpg"/>
-                </a>
-                <div class="new-num">
-                        <p class="new-num-title">限量</p>
-                        <p class="new-num-no">1000</p>
-                </div>
-            </div>
-            <p class="new-name"><a href="http://detail.etao.com/15648309799.htm?rebatepartner=191" title="好想你枣金枣情二级80克">好想你枣金枣情二级80克</a></p>
-            <p class="new-price-prev">
-                <del class="new-price-del">
-                    <span class="new-del-content">
-                    原价：<span class="unit">&yen;</span><span>9.00</span>
-                    </span>
-                </del>
-            </p>
-            <p class="new-price">
-                new人价：<span class="unit">&yen;</span><strong class="new-price-current">7.8</strong>
-            </p>
-        </li>
-
-    </ul>
-</div>
-            </div>
-            <div class="J_NewClose new-member-close"></div>
-       </div><!--首屏广告区-->
 <div class="hotscreen clear-fix">
         <div class="category-list">
 <ul id="J_Category" class="clear-fix">
@@ -323,14 +318,14 @@ new KISSY.searchTabBox();       </script>
                             <div class="cate-item-list">
                                 <div class="cate-item-kind">
 
-                                        <a href="http://s.etao.com/search?q=%B4%BA%CF%C4%C5%AE%D7%B0&cat=50087329&sort=sale-desc&start_price=50&initiative_id=setao_20120328&qservice=s2" data-stat="etao.etao_sy.lmdh.tab1.1">春夏新款</a>
+                                        <a href="http://s.etao.com/search?q=%C7%EF%B6%AC%C5%AE%D7%B0&initiative_id=setao_20121012" data-stat="etao.etao_sy.lmdh.tab1.1">秋冬新款</a>
 
                                 </div>
                                 <div class="cate-item-all">
 
-                                    <a href="http://s.etao.com/search?q=&cat=50087331&sort=sale-desc&start_price=50&initiative_id=setao_20120328&qservice=s2" data-stat="etao.etao_sy.lmdh.tab1.1">连衣裙</a>
-                                    <a href="http://s.etao.com/search?q=&cat=50087332&sort=sale-desc&cd=false&start_price=50&initiative_id=setao_20120328&qservice=s2" data-stat="etao.etao_sy.lmdh.tab1.1">T恤</a>
-                                    <a href="http://s.etao.com/search?q=&cat=50087346&sort=sale-desc&cd=false&start_price=70&initiative_id=setao_20120328&qservice=s2" data-stat="etao.etao_sy.lmdh.tab1.1">针织衫</a>
+                                    <a href="http://s.etao.com/search?spm=1002.8.1.1234.488769&q=%C7%EF%B6%AC%C5%AE%D7%B0&initiative_id=setao_20121012&cat=50087407&navlog=compass-7-c-50087407" data-stat="etao.etao_sy.lmdh.tab1.1">呢大衣</a>
+                                    <a href="http://s.etao.com/search?spm=1002.8.1.1231.cf9bbd&q=%C7%EF%B6%AC%C5%AE%D7%B0&initiative_id=setao_20121012&cat=50087387&navlog=compass-4-c-50087387" data-stat="etao.etao_sy.lmdh.tab1.1">毛衣</a>
+                                    <a href="http://s.etao.com/search?spm=1002.8.1.1230.e6488d&q=%C7%EF%B6%AC%C5%AE%D7%B0&initiative_id=setao_20121012&cat=50087349&navlog=compass-3-c-50087349" data-stat="etao.etao_sy.lmdh.tab1.1">卫衣</a>
 
                                 </div>
                             </div>
@@ -338,14 +333,15 @@ new KISSY.searchTabBox();       </script>
                             <div class="cate-item-list">
                                 <div class="cate-item-kind">
 
-                                        <a href="http://s.etao.com/search?q=%C8%B9%D7%D3&cat=50087329&sort=sale-desc&start_price=65&initiative_id=setao_20120328&qservice=s2" data-stat="etao.etao_sy.lmdh.tab1.1">裙装</a>
+                                        <a href="http://s.etao.com/search?q=%B4%BA%CF%C4+%C9%CF%D2%C2&cat=50087329&start_price=50&initiative_id=setao_20120328&sort=sale-desc" data-stat="">上装</a>
 
                                 </div>
                                 <div class="cate-item-all">
 
-                                    <a href="http://s.etao.com/search?q=&cat=50087352&sort=sale-desc&start_price=50&qservice=s2" data-stat="etao.etao_sy.lmdh.tab1.1">半裙</a>
-                                    <a href="http://s.etao.com/search?q=&cat=50087336&sort=sale-desc&cd=false&start_price=66&qservice=s2" data-stat="etao.etao_sy.lmdh.tab1.1">吊带裙</a>
-                                    <a href="http://s.etao.com/search?q=%D1%A9%B7%C4%C8%B9&cat=50087329&sort=sale-desc&qservice=s2&initiative_id=setao_20120531&loc=&start_price=80&end_price=" data-stat="etao.etao_sy.lmdh.tab1.1">雪纺裙</a>
+                                    <a href="http://s.etao.com/search?q=&cat=50087333&sort=sale-desc&start_price=50&initiative_id=setao_20120328&loc=&start_price=60&end_price=" data-stat="">衬衫</a>
+                                    <a href="http://s.etao.com/search?q=&cat=50087347&sort=sale-desc&from_cat=true&cd=false&start_price=60&initiative_id=setao_20120328&loc=&start_price=75&end_price=" data-stat="">短外套</a>
+                                    <a href="http://s.etao.com/search?q=&cat=50087354&sort=sale-desc&loc=&start_price=70&end_price=" data-stat="">风衣</a>
+                                    <a href="http://s.etao.com/search?q=%D0%A1%CE%F7%D7%B0&cat=50087350&initiative_id=setao_20120410&sort=sale-desc" data-stat="">小西装</a>
 
                                 </div>
                             </div>
@@ -368,14 +364,14 @@ new KISSY.searchTabBox();       </script>
                             <div class="cate-item-list">
                                 <div class="cate-item-kind">
 
-                                        <a href="http://s.etao.com/search?q=%C5%AE%D7%B0+%C9%CF%D7%B0+%CF%C4&sort=sale-desc&qservice=s2&initiative_id=setao_20120531&loc=&start_price=60&end_price=" data-stat="etao.etao_sy.lmdh.tab1.1">上衣</a>
+                                        <a href="" data-stat="etao.etao_sy.lmdh.tab1.1">主流风格</a>
 
                                 </div>
                                 <div class="cate-item-all">
 
-                                    <a href="http://s.etao.com/search?q=%C5%AE%D7%B0+%EF%CE%BF%D5%CF%C4%D7%B0&qservice=s2&initiative_id=setao_20120531&sort=sale-desc" data-stat="etao.etao_sy.lmdh.tab1.1">镂空装</a>
-                                    <a href="http://s.etao.com/search?q=%C5%AE%D7%B0+%C4%A8%D0%D8%C8%B9&sort=sale-desc&qservice=s2&initiative_id=setao_20120531&loc=&start_price=60&end_price=" data-stat="etao.etao_sy.lmdh.tab1.1">抹胸裙</a>
-                                    <a href="http://s.etao.com/search?q=%C5%AE%D7%B0+%B6%A4%D6%E9&cat=50087355&qservice=s2&initiative_id=setao_20120531&sort=sale-desc" data-stat="etao.etao_sy.lmdh.tab1.1">钉珠T恤</a>
+                                    <a href="http://s.etao.com/search?q=%CC%F0%C3%C0+%D1%A7%D4%BA+%C5%AE&initiative_id=setao_20121011&style=grid" data-stat="etao.etao_sy.lmdh.tab1.1">甜美学院</a>
+                                    <a href="http://s.etao.com/search?q=OL+%CD%A8%C7%DA+%D6%AA%D0%D4++%C5%AE&initiative_id=setao_20121011&style=grid" data-stat="etao.etao_sy.lmdh.tab1.1">知性通勤</a>
+                                    <a href="http://s.etao.com/search?spm=1002.8.1.1228.3fafde&q=%BD%D6%CD%B7+%D0%DD%CF%D0+%C5%AE&style=grid&initiative_id=setao_20121011&cat=50087329&navlog=compass-1-c-50087329" data-stat="etao.etao_sy.lmdh.tab1.1">街头休闲</a>
 
                                 </div>
                             </div>
@@ -2925,7 +2921,6 @@ new KISSY.searchTabBox();       </script>
 
                                     <a href="http://s.etao.com/search?q=&cat=50038136&from_cat=true&cd=false&stp=etao.etao_sy.syfl.tab8.1&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.1">三文鱼</a>
                                     <a href="http://s.etao.com/search?q=&cat=50038120&from_cat=true&cd=false&stp=etao.etao_sy.syfl.tab8.1&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.1">海参</a>
-                                    <a href="http://s.etao.com/search?q=&cat=50038122&from_cat=true&cd=false&stp=etao.etao_sy.syfl.tab8.1&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.1">鱼类制品</a>
                                     <a href="http://s.etao.com/search?q=&cat=50038173&from_cat=true&cd=false&stp=etao.etao_sy.syfl.tab8.1&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.1">火腿</a>
 
                                 </div>
@@ -2962,12 +2957,11 @@ new KISSY.searchTabBox();       </script>
                                 <a href="http://s.etao.com/search?q=&cat=50081901&stp=etao.etao_sy.syfl.tab4.1&ppath=20000%3A119062&navlog=compass-Dmore5-p-&qservice=s2 20000:119062&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">康师傅</a>
                                 <a href="http://s.etao.com/search?q=%CC%AB%CC%AB%C0%D6&cat=50081843&sort=sale-desc&from_cat=true&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">太太乐</a>
                                 <a href="http://s.etao.com/search?q=%C0%EE%BD%F5%BC%C7&cat=50081843&sort=sale-desc&from_cat=true&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">李锦记</a>
-                                <a href="http://s.etao.com/search?initiative_id=setao_20120524&q=%B0%B2%E7%F7&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">安琪</a>
+                                <a href="http://s.etao.com/search?q=&cat=50038116&stp=etao.etao_sy.syfl.tab8.1&ppath=20000%3A4539516&navlog=compass-Dmore8-p-&qservice=s2 20000:4539516&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">五芳斋</a>
                                 <a href="http://s.etao.com/search?q=%C0%CF%B8%C9%C2%E8&initiative_id=setao_20120524&cat=50081861&navlog=compass-1-c-50081861&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">老干妈</a>
-                                <a href="http://s.etao.com/search?q=&cat=50081903&stp=etao.etao_sy.syfl.tab4.1&ppath=20000%3A9698333&navlog=compass-Dmore1-p-&qservice=s2 20000:9698333&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">苏伯</a>
                                 <a href="http://s.etao.com/search?style=grid&initiative_id=setao_20120503&q=%BC%D1%C5%E6&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">佳沛</a>
                                 <a href="http://s.etao.com/search?q=%D4%AA%D7%E6&cd=false&cat=50081843&navlog=compass-1-c-50081843&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">元祖</a>
-                                <a href="http://s.etao.com/search?q=&cat=50038116&stp=etao.etao_sy.syfl.tab8.1&ppath=20000%3A4539516&navlog=compass-Dmore8-p-&qservice=s2 20000:4539516&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">五芳斋</a>
+                                <a href="http://s.etao.com/search?initiative_id=setao_20120524&q=%B0%B2%E7%F7&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">安琪</a>
                                 <a href="http://s.etao.com/search?q=&cat=50081911&stp=etao.etao_sy.syfl.tab4.1&ppath=20000%3A111488&navlog=compass-Dmore13-p-&qservice=s2 20000:111488&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.2">三珍斋</a>
 
                             </div>
@@ -3005,7 +2999,7 @@ new KISSY.searchTabBox();       </script>
                                 </div>
                                 <div class="cate-item-all">
 
-                                    <a href="http://s.etao.com/search?q=&from_cat=true&cd=false&cat=50105376&navlog=compass-1-c-50105376&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">速溶咖啡</a>
+                                    <a href="http://s.etao.com/search?q=&from_cat=true&cd=false&cat=50105376&navlog=compass-1-c-50105376&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">咖啡</a>
                                     <a href="http://s.etao.com/search?q=&cat=50009859&from_cat=true&cd=false&stp=etao.etao_sy.syfl.tab8.1&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">麦片</a>
                                     <a href="http://s.etao.com/search?q=&cat=50009858&sort=commend&from_cat=true&cd=false&stp=etao.etao_sy.syfl.tab8.1&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">藕粉</a>
                                     <a href="http://s.etao.com/search?q=%E8%D6%D7%D3%B2%E8&cat=50105448&navlog=compass-2-c-50105448&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">柚子茶</a>
@@ -3023,7 +3017,7 @@ new KISSY.searchTabBox();       </script>
 
                                     <a href="http://s.etao.com/search?q=&cat=50029349&from_cat=true&cd=false&stp=etao.etao_sy.syfl.tab8.1&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">红枣</a>
                                     <a href="http://s.etao.com/search?q=&cat=50008618&sort=commend&ppath=30763%3A93373&stp=etao.etao_sy.syfl.tab8.1&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">鸭脖</a>
-                                    <a href="http://s.etao.com/search?q=&cat=50008059&from_cat=true&cd=false&stp=etao.etao_sy.syfl.tab8.1&style=list&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">坚果炒货</a>
+                                    <a href="http://s.etao.com/search?spm=1002.8.1.1413.3b0d71&q=&cat=50029127&style=grid&cd=false&stp=etao.etao_sy.lmdh.tab6.3&qservice=s2%2Cs11" data-stat="etao.etao_sy.lmdh.tab6.3">山核桃</a>
                                     <a href="http://s.etao.com/search?q=&cat=50008616&style=grid&stp=etao.etao_sy.syfl.tab8.1&ppath=30760%3A94559&navlog=compass-Dmore8-&qservice=s2 p-30760:94559&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">牛肉干</a>
 
                                 </div>
@@ -3038,7 +3032,7 @@ new KISSY.searchTabBox();       </script>
                                 <div class="cate-item-all">
 
                                     <a href="http://s.etao.com/search?q=&cat=50034039&from_cat=true&cd=false&tab=all&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">口香糖</a>
-                                    <a href="http://s.etao.com/search?q=&style=grid&from_cat=true&cd=false&tab=all&cat=50034040&navlog=compass-3-c-50034040&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">果冻布丁</a>
+                                    <a href="http://s.etao.com/search?q=&style=grid&from_cat=true&cd=false&tab=all&cat=50034040&navlog=compass-3-c-50034040&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">果冻</a>
                                     <a href="http://s.etao.com/search?q=&style=grid&from_cat=true&cd=false&tab=all&cat=50034038&navlog=compass-1-c-50034038&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">糖果</a>
                                     <a href="http://s.etao.com/search?q=&cat=50010511&from_cat=true&cd=false&stp=etao.etao_sy.syfl.tab8.1&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.3">饼干</a>
 
@@ -3063,15 +3057,14 @@ new KISSY.searchTabBox();       </script>
                                 <a href="http://s.etao.com/search?style=grid&initiative_id=setao_20120524&q=%BB%C6%B7%C9%BA%EC&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">黄飞红</a>
                                 <a href="http://s.etao.com/search?q=%BA%C3%CF%EB%C4%E3&sort=sale-desc&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">好想你</a>
                                 <a href="http://s.etao.com/search?q=&cat=50008618&style=grid&stp=etao.etao_sy.syfl.tab4.5&ppath=20000%3A111496&navlog=compass-&qservice=s2 Dmore8-p-20000:111496&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">周黑鸭</a>
-                                <a href="http://s.etao.com/search?q=%D0%C2%C5%A9%B8%E7&initiative_id=setao_20120503&cat=50081623&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">新农哥</a>
+                                <a href="http://s.etao.com/search?q=%BF%A8%B7%F2&cat=50081623&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">卡夫</a>
                                 <a href="http://s.etao.com/search?q=%C2%CC%CA%A2&initiative_id=setao_20120503&cat=50081623&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">绿盛</a>
                                 <a href="http://s.etao.com/search?q=%D3%C5%D6%AE%C1%BC%C6%B7&cat=50081623&sort=sale-desc&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">优之良品</a>
                                 <a href="http://s.etao.com/search?q=&cat=50034039&style=grid&stp=etao.etao_sy.syfl.tab4.5&ppath=20000%3A110451&navlog=compass-&qservice=s2 Dmore43-p-20000:110451&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">绿箭</a>
-                                <a href="http://s.etao.com/search?q=%BF%A8%B7%F2&cat=50081623&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">卡夫</a>
+                                <a href="http://s.etao.com/search?q=%D0%C2%C5%A9%B8%E7&initiative_id=setao_20120503&cat=50081623&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">新农哥</a>
                                 <a href="http://s.etao.com/search?q=&cat=50034040&style=grid&stp=etao.etao_sy.syfl.tab4.5&ppath=20000%3A110459&navlog=compass-&qservice=s2 Dmore8-p-20000:110459&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">喜之郎</a>
                                 <a href="http://s.etao.com/search?q=&cat=50081624&style=grid&stp=etao.etao_sy.syfl.tab4.3&ppath=20000%3A66556&navlog=compass-Dmore3-&qservice=s2 p-20000:66556&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">德芙</a>
                                 <a href="http://s.etao.com/search?q=&cat=50081778&style=grid&stp=etao.etao_sy.syfl.tab4.3&ppath=20000%3A92543&navlog=compass-Dmore2-&qservice=s2 p-20000:92543&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">御食园</a>
-                                <a href="http://s.etao.com/search?q=&cat=50081730&style=grid&stp=etao.etao_sy.syfl.tab4.3&ppath=20000%3A119615&navlog=compass-&qservice=s2 Dmore2-p-20000:119615&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">有友</a>
                                 <a href="http://s.etao.com/search?q=&cat=50081692&style=grid&stp=etao.etao_sy.syfl.tab4.3&ppath=20000%3A66588&navlog=compass-Dmore1-&qservice=s2 p-20000:66588&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.4">不二家</a>
 
                             </div>
@@ -3128,7 +3121,7 @@ new KISSY.searchTabBox();       </script>
                                     <a href="http://s.etao.com/search?q=&cat=50064900&style=grid&stp=etao.etao_sy.syfl.tab8.1&ppath=9921514%3A21916913%3B&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.5">抗衰老</a>
                                     <a href="http://s.etao.com/search?q=&cat=50064900&style=grid&stp=etao.etao_sy.syfl.tab8.1&ppath=9921514%3A117439&navlog=compass-&qservice=s2 Dmore2-p-9921514:117439&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.5">养颜</a>
                                     <a href="http://s.etao.com/search?q=&cat=50064900&style=grid&stp=etao.etao_sy.syfl.tab8.1&ppath=9921514%3A6808139%3B&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.5">减肥</a>
-                                    <a href="http://s.etao.com/search?q=&cat=50064900&style=grid&stp=etao.etao_sy.syfl.tab4.5&ppath=9921514%3A20374%3B&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.5">免疫调节</a>
+                                    <a href="http://s.etao.com/search?q=&cat=50064900&style=grid&stp=etao.etao_sy.syfl.tab4.5&ppath=9921514%3A20374%3B&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.5">免疫</a>
 
                                 </div>
                             </div>
@@ -3160,17 +3153,17 @@ new KISSY.searchTabBox();       </script>
 
                                 <a href="http://s.etao.com/search?q=%C1%A2%B6%D9&style=grid&initiative_id=setao_20120503&cat=50105350&navlog=compass-1-c-50105350&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">立顿</a>
                                 <a href="http://s.etao.com/search?q=%CC%EC%B8%A3%DC%F8%B2%E8&style=grid&initiative_id=setao_20120503&cat=50105371&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">天福茗茶</a>
+                                <a href="http://s.etao.com/search?q=&cat=50064900&style=grid&stp=etao.etao_sy.syfl.tab8.1&ppath=20000%3A3577479&navlog=compass-&qservice=s2 Dmore20-p-20000:3577479&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">汤臣倍健</a>
                                 <a href="http://s.etao.com/search?q=&cat=50064900&style=grid&stp=etao.etao_sy.syfl.tab8.1&ppath=20000%3A44932&navlog=compass-&qservice=s2 Dmore18-p-20000:44932&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">GNC</a>
                                 <a href="http://s.etao.com/search?q=&cat=50064900&ppath=20000%3A20040&stp=etao.etao_sy.syfl.tab8.1&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">FANCL</a>
-                                <a href="http://s.etao.com/search?q=&cat=50064900&style=grid&stp=etao.etao_sy.syfl.tab8.1&ppath=20000%3A3577479&navlog=compass-&qservice=s2 Dmore20-p-20000:3577479&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">汤臣倍健</a>
                                 <a href="http://s.etao.com/search?q=&cat=50064900&style=grid&stp=etao.etao_sy.syfl.tab8.1&ppath=20000%3A101183&navlog=compass-&qservice=s2 Dmore22-p-20000:101183&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">安利</a>
                                 <a href="http://s.etao.com/search?q=&cat=50064900&style=grid&stp=etao.etao_sy.syfl.tab8.1&ppath=20000%3A20402%3B&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">养生堂</a>
                                 <a href="http://s.etao.com/search?q=&cat=50105404&ppath=20000%3A4536492&navlog=compass-Dmore3-p-20000:4536492&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">五粮液</a>
                                 <a href="http://s.etao.com/search?q=&cat=50105404&ppath=20000%3A4101168&navlog=compass-Dmore1-p-20000:4101168&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">茅台</a>
                                 <a href="http://s.etao.com/search?q=%D5%C5%D4%A3&cat=50090251&initiative_id=setao_20120503&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">张裕</a>
                                 <a href="http://s.etao.com/search?q=&cat=50105406&ppath=20000%3A4533829&navlog=compass-Dmore4-p-20000:4533829&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">会稽山</a>
-                                <a href="http://s.etao.com/search?q=%D6%A5%BB%AA%CA%BF&cat=50090252&initiative_id=setao_20120503&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">芝华士</a>
                                 <a href="http://s.etao.com/search?q=&cat=50005947&style=grid&stp=etao.etao_sy.syfl.tab4.5&ppath=20000%3A3229936&navlog=compass-&qservice=s2 Dmore5-p-20000:3229936&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">正官庄</a>
+                                <a href="http://s.etao.com/search?q=%D6%A5%BB%AA%CA%BF&cat=50090252&initiative_id=setao_20120503&style=grid&s=0&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">芝华士</a>
                                 <a href="http://s.etao.com/search?q=%CD%AC%C8%CA%CC%C3&style=grid&initiative_id=setao_20120503&cat=50081949&navlog=compass-8-c-&qservice=s2 50081949&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">同仁堂</a>
                                 <a href="http://s.etao.com/search?q=%B6%AB%B0%A2%B0%A2%BD%BA&style=grid&initiative_id=setao_20120503&cat=50081949&navlog=compass-1-&qservice=s2 c-50081949&qservice=s2" data-stat="etao.etao_sy.lmdh.tab6.6">东阿阿胶</a>
 
@@ -3186,7 +3179,7 @@ new KISSY.searchTabBox();       </script>
                         <div class="cate-item-left">
                             <div class="cate-item-title">
 
-            <a href="http://living.etao.com/%20&tab=all" data-stat="etao.etao_sy.lmdh.tab9.1">生活百货</a>
+            <a href="http://living.etao.com/?spm=1002.1.0.56.656c46" data-stat="etao.etao_sy.lmdh.tab9.1">生活百货</a>
 
                             </div>
 
@@ -3267,7 +3260,7 @@ new KISSY.searchTabBox();       </script>
                         <div class="cate-item-left">
                             <div class="cate-item-title">
 
-            <a href="http://living.etao.com/ &tab=all" data-stat="etao.etao_sy.lmdh.tab9.3">家饰软装</a>
+            <a href="http://s.etao.com/search?spm=0.0.0.35.e3e5ba&q=%BC%D2%BE%DF&from_cat=true&stp=etao.etao_sy.syfl.tab8.3&cat=50081513&cd=false&from_cat=true" data-stat="etao.etao_sy.lmdh.tab9.3">家饰软装</a>
 
                             </div>
 
@@ -3643,34 +3636,34 @@ new KISSY.searchTabBox();       </script>
 				</div>    </div>
     <div class="hc-pics-main">
         <div class="hc-switchable-pic" id="J_hc-swpic">
-            <span id="scroller-prev" class="prev disable J_hc-swpic-prev"></span>
-            <span id="scroller-next" class="next J_hc-swpic-next"></span>
+            <span id="scroller-prev" class="prev disable J_hc-swpic-prev" title="上一页"></span>
+            <span id="scroller-next" class="next J_hc-swpic-next" title="下一页"></span>
             <div class="scroller">
-                <div class="ks-switchable-content  clear-fix"><a href="http://vip.etao.com/topic.htm?spm=0.0.0.40.749801&id=29#J_SwitchableCont" title="年终清仓" data-stat="etao.etao_sy.top.mid.1.1"><img alt="年终清仓" src="http://img01.taobaocdn.com/tps/i1/T163jMXhXXXXcLIEfS-300-251.png" width="300" height="251"/></a><a href="http://vip.etao.com/topic.htm?id=31#J_SwitchableCont" title="一淘专享" data-stat="etao.etao_sy.top.mid.1.2"><img alt="一淘专享" src="http://img02.taobaocdn.com/tps/i2/T1qX2LXiliXXcLIEfS-300-251.png" width="300" height="251"/></a><a href="http://www.etao.com/go/act/etao/fashion-week.php" title="一淘时装周" data-stat="etao.etao_sy.top.mid.1.3"><img alt="一淘时装周" src="http://img04.taobaocdn.com/tps/i4/T15u6MXeFaXXcLIEfS-300-251.png" width="300" height="251"/></a><a href="http://www.tonlion.com/page-fashion_men.html" title="宁波博洋服饰" data-stat="etao.etao_sy.top.mid.1.4"><img alt="宁波博洋服饰" src="http://img03.taobaocdn.com/tps/i3/T13EPFXaxpXXcLIEfS-300-251.png" width="300" height="251"/></a></div>
+                <div class="ks-switchable-content  clear-fix"><a href="http://vip.etao.com/topic.htm?spm=0.0.0.37.bc32e&id=67#J_SwitchableCont" title="大牌专场疯抢" data-stat="etao.etao_sy.top.mid.1.1"><img alt="大牌专场疯抢" src="http://img01.taobaocdn.com/tps/i1/T1.cPVXgdiXXcLIEfS-300-251.png" width="300" height="251"/></a><a href="http://www.etao.com/go/act/tmall/quan.php?spm=1002.1.0.49.b982b" title="一淘优惠券" data-stat="etao.etao_sy.top.mid.1.2"><img alt="一淘优惠券" src="http://img02.taobaocdn.com/tps/i2/T1hBfVXnxeXXcLIEfS-300-251.png" width="300" height="251"/></a><a href="http://vip.etao.com/topic.htm?spm=0.0.0.39.d7a90f&id=69" title="一淘专享" data-stat="etao.etao_sy.top.mid.1.3"><img alt="一淘专享" src="http://img01.taobaocdn.com/tps/i1/T1.j6VXfthXXcLIEfS-300-251.png" width="300" height="251"/></a><a href="http://www.uya100.com/zt/20120928beizi/" title="优雅生活uya100" data-stat="etao.etao_sy.top.mid.1.4"><img alt="优雅生活uya100" src="http://img04.taobaocdn.com/tps/i4/T1hWnUXeRjXXX_GUfS-300-251.jpg" width="300" height="251"/></a><a href="http://vip.etao.com/only.htm?spm=0.0.0.42.116fe9&categoryid=18" title="一淘专享" data-stat="etao.etao_sy.top.mid.1.5"><img alt="一淘专享" src="http://img02.taobaocdn.com/tps/i2/T1BprRXftoXXcLIEfS-300-251.png" width="300" height="251"/></a></div>
             </div>
         </div>
         <div class="hc-pics-main-bottom">
 			
-            <a href="http://vip.etao.com/only.htm?spm=0.0.0.39.78cb6e&categoryid=13" title="16.9元包邮" data-stat="etao.etao_sy.top.mid.2." style="display:block;width:300px;min-height:100px;max-height: 115px;background:url('http://img04.taobaocdn.com/tps/i4/T1zJHLXgtjXXbuvm_S-300-120.png') no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img04.taobaocdn.com/tps/i4/T1zJHLXgtjXXbuvm_S-300-120.png',sizingMethod='crop');"></a>	
+            <a href="http://1111.etao.com/" title="一淘双十一" data-stat="etao.etao_sy.top.mid.2." style="display:block;width:300px;min-height:100px;max-height: 115px;background:url('http://img04.taobaocdn.com/tps/i4/T13f2VXkxiXXbuvm_S-300-120.png') no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img04.taobaocdn.com/tps/i4/T13f2VXkxiXXbuvm_S-300-120.png',sizingMethod='crop');"></a>	
 	               
         </div>
     </div>
        <div class="hc-pics-sub">
         <div class="hc-pics-sub-top">
 			
-            <a href="http://vip.etao.com/topic.htm?spm=0.0.0.38.4f3321&id=26" data-stat="etao.etao_sy.top.mid.3" title="名鞋首发" style="display:block;width:210px;min-height:175px;max-height:190px;background:url('http://img03.taobaocdn.com/tps/i3/T1Mu6LXapiXXXgnDsh-210-175.png') no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img03.taobaocdn.com/tps/i3/T1Mu6LXapiXXXgnDsh-210-175.png',sizingMethod='crop');"></a>
+            <a href="http://vip.etao.com/topic.htm?spm=0.0.0.37.bc32e&id=68#J_SwitchableCont" data-stat="etao.etao_sy.top.mid.3" title="百雀羚" style="display:block;width:210px;min-height:175px;max-height:190px;background:url('http://img04.taobaocdn.com/tps/i4/T1rwrWXbVXXXXgnDsh-210-175.png') no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img04.taobaocdn.com/tps/i4/T1rwrWXbVXXXXgnDsh-210-175.png',sizingMethod='crop');"></a>
 			
         </div>
 		
-        <a class="hc-pics-sub-bottom" href="http://www.etao.com/go/act/tmall/quan.php" title="清仓大促" data-stat="etao.etao_sy.top.mid.4">
-            <img src="http://img03.taobaocdn.com/tps/i3/T1Hw6LXaBhXXXgnDsh-210-175.png" width="210" height="175" alt="清仓大促">
+        <a class="hc-pics-sub-bottom" href="http://vip.etao.com/topic.htm?spm=0.0.0.42.bbc88a&id=70#J_SwitchableCont" title="快清仓" data-stat="etao.etao_sy.top.mid.4">
+            <img src="http://img04.taobaocdn.com/tps/i4/T1ElPMXc4pXXXgnDsh-210-175.png" width="210" height="175" alt="快清仓">
         </a>
 		
     </div>
        <div class="hc-pics-flex">
 		
-        <a href="http://haiwai.etao.com/act_ythwgbm.htm" title="海淘" data-stat="etao.etao_sy.top.mid.5">
-            <img src="http://img04.taobaocdn.com/tps/i4/T1JgjMXeFXXXbpD.Ih-210-350.png" width="210px" height="350px" alt="海淘">
+        <a href="http://jf.etao.com/brandSaleV4.htm?spm=0.0.0.50.ddf712" title="一淘积分" data-stat="etao.etao_sy.top.mid.5">
+            <img src="http://img02.taobaocdn.com/tps/i2/T1QR6UXm0iXXbpD.Ih-210-350.png" width="210px" height="350px" alt="一淘积分">
         </a>
 		
     </div>
@@ -3704,19 +3697,80 @@ new KISSY.searchTabBox();       </script>
             <li class="hc-info-links-sec"><a href="http://www.etao.com/go/act/phone/download.php" data-stat="etao.etao_sy.top.right.p.2" title="逛街购物比价 尽在手机一淘"><i class="link-mobi"></i><strong>手机一淘</strong></a><a href="http://itunes.apple.com/app/id451400917?mt=8" title="一淘iphone客户端"><i class="link-mobi-i"></i></a><a href="http://www.etao.com/go/act/phone/download.php" title="一淘Android客户端"><i class="link-mobi-a"></i></a></li>
         
         
-            <li><a href="http://www.tao123.com/" data-stat="etao.etao_sy.top.right.p.3" title="淘宝旗下导航站"><i class="link-web"></i><strong>淘网址</strong>淘宝旗下导航站</a></li>
+            <li><a href="http://browser.taobao.com/?pid=0080_2009" data-stat="etao.etao_sy.top.right.p.3" title="安全高速"><i class="link-web"></i><strong>淘宝浏览器</strong>安全高速</a></li>
         
     </ul>
 <div style="clear:both"></div>
 </div>
       </div>
 </div>
-<div id="J_Recommend" class="recommend-area"></div>
-  <div class="main clear-fix">
+<div id="J_Recommend" class="recommend-area"></div><div class="sales clear-fix">
+    <div class="sales-hd mod-title">
+                    <h2 class="hd">
+                        促销活动 Promotion<b class="sales-title"></b>
+                    </h2>
+    </div>
+   <div class="sales-bd">
+           <div class="sales-list">
+    <div class="sales-news-text">
+        <ul>
+			
+			            <li><a class="text-hide" href="http://sale.etao.com/?id=89071" title="买电器不花钱 买商品返蓝券" data-stat="etao.etao_sy.cxhd.gg.1"><b>[国美]</b>买电器不花钱 买商品返蓝券</a><span>10月10日-10月17日</span></li>
+			            <li><a class="text-hide" href="http://sale.etao.com/?id=87203" title="庆双节，嘉宝全系满99减20元" data-stat="etao.etao_sy.cxhd.gg.2"><b>[速普商城]</b>庆双节，嘉宝全系满99减20元</a><span>09月29日-10月21日</span></li>
+			            <li><a class="text-hide" href="http://sale.etao.com/?id=88572" title="美鞋集结号 最低99元 299封顶" data-stat="etao.etao_sy.cxhd.gg.3"><b>[麦鞋趣]</b>美鞋集结号 最低99元 299封顶</a><span>10月09日-10月31日</span></li>
+			            <li><a class="text-hide" href="http://sale.etao.com/?id=88835" title="图书全场满300减100活动" data-stat="etao.etao_sy.cxhd.gg.4"><b>[亚马逊]</b>图书全场满300减100活动</a><span>10月11日-10月21日</span></li>
+			            <li><a class="text-hide" href="http://sale.etao.com/?id=88730" title="周年庆第三波 4折封顶" data-stat="etao.etao_sy.cxhd.gg.5"><b>[银泰百货]</b>周年庆第三波 4折封顶</a><span>10月10日-10月22日</span></li>
+			            <li><a class="text-hide" href="http://sale.etao.com/?id=89082" title="这个秋天 玩具5折起" data-stat="etao.etao_sy.cxhd.gg.6"><b>[红孩子]</b>这个秋天 玩具5折起</a><span>10月15日-10月21日</span></li>
+			            <li><a class="text-hide" href="http://sale.etao.com/?id=89278" title="骑士时尚  男装满500返500！" data-stat="etao.etao_sy.cxhd.gg.7"><b>[太平鸟]</b>骑士时尚  男装满500返500！</a><span>10月12日-10月22日</span></li>
+						
+        </ul>
+    </div>
+	
+        <a class="sales-news-banner" href="http://sale.etao.com/?id=88829" title="卓美网---2012尼康回馈专场---赠多层镀膜UV镜" data-stat="etao.etao_sy.cxhd.gg.pic">
+        <img src="http://img02.taobaocdn.com/tps/i2/T1CFnWXeJaXXbJgpLC-260-120.png" width="260" height="120" alt="卓美网---2012尼康回馈专场---赠多层镀膜UV镜"><i></i>    </a>
+	
+</div>
+		    <div class="cat-banner">
+                <div class="main-banner">
+
+	<a href="http://sale.etao.com/?id=89795" class="banner-img" data-stat="etao.etao_sy.cxhd.tab1"><img width="200" height="300" src="http://img03.taobaocdn.com/tps/i3/T1Y_2VXhlbXXaCwpjX.png" alt="Tmall艾夫斯---3折包邮---优惠购+新品团联合出击"/></a>
+
+
+	<a href="http://sale.etao.com/?id=88583" class="banner-img" data-stat="etao.etao_sy.cxhd.tab2"><img width="250" height="300" src="http://img02.taobaocdn.com/tps/i2/T19JPVXeJiXXaCwpjX.png" alt="1号店--十月最强劲促销---天天半价！"/></a>
+
+
+	<a href="http://sale.etao.com/?id=88136" class="banner-img" data-stat="etao.etao_sy.cxhd.tab3"><img width="250" height="300" src="http://img01.taobaocdn.com/tps/i1/T1G5zQXnlpXXaCwpjX.png" alt="库巴--中国好婚姻---大家电满千返百"/></a>
+
+</div>
+                <div id="J_CatBannerSwitch" class="cat-banner-switch">
+
+	<a href="http://sale.etao.com/?id=89994" class="switch-img J_BannerSwitchImg1" data-stat="etao.etao_sy.cxhd.tab4"><img width="330" height="120" src="http://img02.taobaocdn.com/tps/i2/T1MfrRXlNoXXaCwpjX.png" alt="百雀羚---国货精选 给力2.9折---这一天，我等了81年"/></a>
+
+
+	<a href="http://sale.etao.com/?id=88686" class="switch-img J_BannerSwitchImg2" data-stat="etao.etao_sy.cxhd.tab5"><img width="330" height="120" src="http://img01.taobaocdn.com/tps/i1/T1Hp2WXmpbXXaCwpjX.png" alt="同源康--马来半岛风情---畅享亲情香饼，全场8折起"/></a>
+
+
+	<a href="http://sale.etao.com/?id=88766" class="switch-img J_BannerSwitchImg3" data-stat="etao.etao_sy.cxhd.tab6"><img width="330" height="120" src="http://img02.taobaocdn.com/tps/i2/T11ejVXblgXXaCwpjX.png" alt="起跑网--匡威最经典28款单品---全网最低价！"/></a>
+
+
+	<a href="http://sale.etao.com/?id=89341" class="last-img" data-stat="etao.etao_sy.cxhd.tab7"><img width="200" height="120" src="http://img04.taobaocdn.com/tps/i4/T1TfnVXjFgXXaCwpjX.png" alt="天猫三彩---迎接双十一---五折起包邮"/></a>
+
+</div>
+		    </div>
+                <div class="side-banner">
+
+<a href="http://www.etao.com/go/act/dianping.etao.com/activity/i9300.php" class="banner-img banner-l" data-stat="etao.etao_sy.cxhd.tab8"><img width="200" height="120" src="http://img02.taobaocdn.com/tps/i2/T1u6zVXXpeXXaCwpjX.png" alt="点评三星i9300--赢淘公仔--精装护肤原液礼盒"/></a>
+
+
+<a href="http://sale.etao.com/?id=89365" class="banner-img banner-s" data-stat="etao.etao_sy.cxhd.tab9"><img width="200" height="300" src="http://img01.taobaocdn.com/tps/i1/T1vXnVXk8jXXaCwpjX.png" alt="天猫秋水伊人---迎接双十一---折扣提前抢"/></a>
+
+</div>
+     </div>
+</div>  <div class="main clear-fix">
     <div class="w-content">
       <textarea class="ks-datalazyload" style="visibility:hidden;">
       <div class="quan-banner box">
-    <a href="http://fun.alipay.com/miaosha/index.htm?src=ms02" title="" data-stat="etao.etao_sy.gg.1"><img width="990" height="90" src="https://i.alipayobjects.com/e/201209/1DtBZKgfdd.jpg" alt=""/></a>
+    <a href="http://www.etao.com/go/act/dianping.etao.com/activity/i9300.php" title="" data-stat="etao.etao_sy.gg.1"><img width="990" height="90" src="http://img04.taobaocdn.com/tps/i4/T1nZ6QXXVqXXbt.h_s-990-90.png" alt=""/></a>
 </div>
       <div class="quan box">
     <div class="quan-hd mod-title">
@@ -3764,22 +3818,22 @@ new KISSY.searchTabBox();       </script>
             <ul class="clear-fix">
                 
                                 <li>
-                    <a href="http://buy.etao.com/store.htm?uid=263817957&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D6170%26sid%3D263817957%26source%3D3%26open%3Dtrue%26channel%3Detaosyquan" title="韩都衣舍旗舰店" data-stat="etao.etao_sy.yhq.tj.1"><img width="265" height="150" src="http://img02.taobaocdn.com/tps/i2/T1KUHKXgtgXXb6oavO-265-150.png" alt="韩都衣舍旗舰店"/></a>
+                    <a href="http://buy.etao.com/search.htm?spm=0.0.0.52.683b1f&id=675049169&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D8738%26sid%3D675049169%26source%3D0%26open%3Dtrue%26channel%3Detaosyquan" title="太平鸟官网" data-stat="etao.etao_sy.yhq.tj.1"><img width="265" height="150" src="http://img04.taobaocdn.com/tps/i4/T17B2UXb4gXXb6oavO-265-150.png" alt="太平鸟官网"/></a>
                 </li>
                                 <li>
-                    <a href="http://buy.etao.com/store.htm?uid=96700915&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D6311%26sid%3D96700915%26source%3D3%26open%3Dtrue%26channel%3Detaosyquan" title="七匹狼官方旗舰店" data-stat="etao.etao_sy.yhq.tj.2"><img width="265" height="150" src="http://img01.taobaocdn.com/tps/i1/T1isjLXfBaXXb6oavO-265-150.png" alt="七匹狼官方旗舰店"/></a>
+                    <a href="http://buy.etao.com/store.htm?spm=0.0.0.58.4fccdf&uid=94399436&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D6698%26sid%3D94399436%26source%3D3%26open%3Dtrue%26channel%3Detaosyquan" title="马克华菲官方旗舰店" data-stat="etao.etao_sy.yhq.tj.2"><img width="265" height="150" src="http://img03.taobaocdn.com/tps/i3/T1T.zTXjXmXXb6oavO-265-150.png" alt="马克华菲官方旗舰店"/></a>
                 </li>
                                 <li>
-                    <a href="http://buy.etao.com/search.htm?spm=0.0.0.132.618d0f&id=796451672&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D6278%26sid%3D796451672%26source%3D0%26open%3Dtrue%26channel%3Detaosyquan" title="新7天电器" data-stat="etao.etao_sy.yhq.tj.3"><img width="265" height="150" src="http://img02.taobaocdn.com/tps/i2/T1rwrLXhVcXXb6oavO-265-150.png" alt="新7天电器"/></a>
+                    <a href="http://buy.etao.com/store.htm?spm=0.0.0.52.8c8282&uid=687880532&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D7952%26sid%3D687880532%26source%3D3%26open%3Dtrue%26channel%3Detaosyquan" title="mring官方旗舰店" data-stat="etao.etao_sy.yhq.tj.3"><img width="265" height="150" src="http://img01.taobaocdn.com/tps/i1/T18ObVXiFaXXb6oavO-265-150.png" alt="mring官方旗舰店"/></a>
                 </li>
                                 <li>
-                    <a href="http://buy.etao.com/search.htm?id=654375462&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D6169%26sid%3D654375462%26source%3D0%26open%3Dtrue%26channel%3Detaosyquan" title="乐蜂网" data-stat="etao.etao_sy.yhq.tj.4"><img width="265" height="150" src="http://img03.taobaocdn.com/tps/i3/T1.q_LXX4fXXb6oavO-265-150.png" alt="乐蜂网"/></a>
+                    <a href="http://buy.etao.com/store.htm?spm=0.0.0.52.c076a6&uid=392899620&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D24842047%26sid%3D392899620%26source%3D2%26open%3Dtrue" title="莎莎官方旗舰店" data-stat="etao.etao_sy.yhq.tj.4"><img width="265" height="150" src="http://img02.taobaocdn.com/tps/i2/T1JorTXlhkXXb6oavO-265-150.png" alt="莎莎官方旗舰店"/></a>
                 </li>
                                 <li>
-                    <a href="http://quan.etao.com/6205.htm?%26channel%3Detaosyquan" title="英氏母婴" data-stat="etao.etao_sy.yhq.tj.5"><img width="265" height="150" src="http://img03.taobaocdn.com/tps/i3/T1ZlrKXa4eXXb6oavO-265-150.png" alt="英氏母婴"/></a>
+                    <a href="http://buy.etao.com/search.htm?spm=0.0.0.54.5f15c7&id=748353206&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D8346%26sid%3D748353206%26source%3D0%26open%3Dtrue%26channel%3Detaosyquan" title="速普商城" data-stat="etao.etao_sy.yhq.tj.5"><img width="265" height="150" src="http://img04.taobaocdn.com/tps/i4/T1ca6VXhxdXXb6oavO-265-150.png" alt="速普商城"/></a>
                 </li>
                                 <li>
-                    <a href="http://buy.etao.com/store.htm?uid=411316654&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D6244%26sid%3D411316654%26source%3D3%26open%3Dtrue%26channel%3Detaosyquan" title="天山金冠" data-stat="etao.etao_sy.yhq.tj.6"><img width="265" height="150" src="http://img04.taobaocdn.com/tps/i4/T1UrTKXoJmXXb6oavO-265-150.png" alt="天山金冠"/></a>
+                    <a href="http://buy.etao.com/search.htm?spm=0.0.0.52.88774&id=779618870&target=http%3A%2F%2Fquan.etao.com%2Fseller.htm%3Fid%3D6347%26sid%3D779618870%26source%3D0%26open%3Dtrue%26channel%3Detaosyquan" title="恒大商城" data-stat="etao.etao_sy.yhq.tj.6"><img width="265" height="150" src="http://img03.taobaocdn.com/tps/i3/T1ApDUXbJiXXb6oavO-265-150.png" alt="恒大商城"/></a>
                 </li>
                                 
             </ul>
@@ -3836,14 +3890,14 @@ DOM.html('#J_quan',arrHtml.join(''));
 		</h2>
 		<div class="bd">
 			
-			<img src="http://img01.taobaocdn.com/tps/i1/T1mqYLXjXkXXbJf8nG-789-344.png" alt="" width="789" height="344" class="rebates-img" usemap="#Map">
+			<img src="http://img03.taobaocdn.com/tps/i3/T1srjSXhFlXXbJf8nG-789-344.png" alt="" width="789" height="344" class="rebates-img" usemap="#Map">
 			<map name="Map">
-				<area shape="poly" coords="95,6,100,72,202,159,310,152,346,9" href="http://s.etao.com/search?spm=1002.8.1.250.ccacf7&q=%BF%AA%C9%C0&initiative_id=setao_20120910&qservice=s2&nidpromote=7119612342312462751:10" data-stat="etao.etao_sy.fl.tj.1.">
+				<area shape="poly" coords="95,6,100,72,202,159,310,152,346,9" href="http://s.etao.com/search?spm=1002.8.1.1244.f76456&q=%BF%AA%C9%C0%CE%C0%D2%C2&style=grid&qservice=s11&initiative_id=setao_20121015&cat=50087615&navlog=compass-3-c-50087615&nidpromote=637122498662696879:10&stp=fanli.1" data-stat="etao.etao_sy.fl.tj.1.">
 				<area shape="circle" coords="457,101,101" href="http://fanli.etao.com/" data-stat="etao.etao_sy.fl.tj.2.">
-				<area shape="poly" coords="556,5,573,155,784,163,785,3" href="http://s.etao.com/search?spm=1002.8.1.502.e9a69c&q=%B3%A4%D0%E4%B3%C4%C9%C0&cat=50087615&initiative_id=setao_20120910&qservice=s2&nidpromote=1092550679940765582:10" data-stat="etao.etao_sy.fl.tj.3.">
-				<area shape="poly" coords="15,117,119,116,162,194,206,222,209,334,9,330" href="http://s.etao.com/search?spm=1002.8.1.232.edc71&q=%CA%B1%C9%D0%CE%C0%D2%C2&initiative_id=setao_20120910&qservice=s2&nidpromote=8445178913099706611:10" data-stat="etao.etao_sy.fl.tj.4.">
-				<area shape="poly" coords="242,178,365,178,419,228,498,234,500,328,248,332" href="http://s.etao.com/search?spm=1002.8.1.241.cf9347&q=%B7%AB%B2%BC%D0%AC&cat=50087300&initiative_id=setao_20120910&qservice=s2&nidpromote=8236462548498883017:10" data-stat="etao.etao_sy.fl.tj.5.">
-				<area shape="rect" coords="553,185,789,332" href="http://s.etao.com/search?spm=1002.8.1.287.7910ac&q=%B8%B4%B9%C5%D0%A1%B0%FC&initiative_id=setao_20120910&qservice=s2&nidpromote=8619943393084051874:10" data-stat="etao.etao_sy.fl.tj.6.">
+				<area shape="poly" coords="556,5,573,155,784,163,785,3" href="http://s.etao.com/search?spm=1002.8.1.1482.e0f842&q=%BA%AB%B0%E6+%CE%C0%D2%C2&initiative_id=setao_20121015&qservice=s11&nidpromote=4491173963180514143:10&stp=fanli.1" data-stat="etao.etao_sy.fl.tj.3.">
+				<area shape="poly" coords="15,117,119,116,162,194,206,222,209,334,9,330" href="http://s.etao.com/search?spm=1002.8.1.1429.82de6e&q=%D0%DE%C9%ED%CE%F7%B7%FE%CD%E2%CC%D7&cat=50087329&initiative_id=setao_20121016&qservice=s11&nidpromote=2061581104402995763:10&stp=fanli.1" data-stat="etao.etao_sy.fl.tj.4.">
+				<area shape="poly" coords="242,178,365,178,419,228,498,234,500,328,248,332" href="http://s.etao.com/search?q=%B5%A5%D0%AC&initiative_id=setao_20121015&style=grid&nidpromote=7035578679223608607:10&stp=fanli.1" data-stat="etao.etao_sy.fl.tj.5.">
+				<area shape="rect" coords="553,185,789,332" href="http://s.etao.com/search?spm=1002.8.1.1467.dabbd&q=%CB%AF%C3%DF%C3%E6%C4%A4&style=grid&initiative_id=setao_20121015&qservice=s11&nidpromote=3097071997:10&stp=fanli.1" data-stat="etao.etao_sy.fl.tj.6.">
 			</map>
 			
 		</div>
@@ -3859,12 +3913,12 @@ DOM.html('#J_quan',arrHtml.join(''));
 		</h2>
 		<ul class="bd we-talk-list">
 			
-						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-674941378-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.1" title="如何使用优惠券，购物一省再省">如何使用优惠券，购物一省再省</a></li>
-						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-675061913-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.2" title="一淘返利问与答，教你如何省钱">一淘返利问与答，教你如何省钱</a></li>
-						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-675612038-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.3" title="重金悬赏！寻找最会优惠购的你！">重金悬赏！寻找最会优惠购的你！</a></li>
-						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-675520284-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.4" title="京东PK苏宁血腥价格战，怎么买？">京东PK苏宁血腥价格战，怎么买？</a></li>
-						<li><a href="http://8.etao.com/fanli/thread-1466423-675508837-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.5" title="晒返利，每日一套淘公仔赢回家">晒返利，每日一套淘公仔赢回家</a></li>
-						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-675339139-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.6" title="一淘专享价，9.9特级大红袍还包邮">一淘专享价，9.9特级大红袍还包邮</a></li>
+						<li><a href="http://8.etao.com/activities/tao8.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.1" title="史上最全双11省钱攻略！">史上最全双11省钱攻略！</a></li>
+						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-675984002-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.2" title="双11没用一淘，你亏了多少">双11没用一淘，你亏了多少</a></li>
+						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-675983802-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.3" title="双11财神到省钱PK，赢10元红包">双11财神到省钱PK，赢10元红包</a></li>
+						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-676140133-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.4" title="教你双11每天白拿10个集分宝！">教你双11每天白拿10个集分宝！</a></li>
+						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-675439121-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.5" title="一淘抽红包的秘诀，必须看！">一淘抽红包的秘诀，必须看！</a></li>
+						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-675371039-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.6" title="超值5分牛仔裤，一淘一省再省">超值5分牛仔裤，一淘一省再省</a></li>
 						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-675364708-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.7" title="果真了得椰枣9.9包邮还返5元！">果真了得椰枣9.9包邮还返5元！</a></li>
 						<li><a href="http://8.etao.com/wanzhuanwanggou/thread-2713364-675364465-0-1-detail.htm" class="text-hide" data-stat="etao.etao_sy.fl.talk.8" title="0元购无线鼠标，给力一淘有木有">0元购无线鼠标，给力一淘有木有</a></li>
 						
@@ -4021,30 +4075,30 @@ DOM.html('#J_quan',arrHtml.join(''));
 				<p class="brand-rebate-amount"><span class="fl-second">1.5</span><span class="fl-three">%</span></p>
 				
 				
-				<a href="http://buy.etao.com/search.htm?id=675046841"  data-stat="etao.etao_sy.flsj.1.1" title="亚马逊" class="brand-logo"><img src="http://img03.taobaocdn.com/tps/i3/T1CbreXdhwXXcwTVc8-120-50.png" width="120" height="50" alt="亚马逊"></a>
+				<a href="http://buy.etao.com/search.htm?id=675046841&partner=34"  data-stat="etao.etao_sy.flsj.1.1" title="亚马逊" class="brand-logo"><img src="http://img03.taobaocdn.com/tps/i3/T1CbreXdhwXXcwTVc8-120-50.png" width="120" height="50" alt="亚马逊"></a>
 				
 				<ul class="business-list">
 					
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=654451787" data-stat="etao.etao_sy.flsj.1.2" title="凡客" class="sub-link">凡客</a>&nbsp;&nbsp;<span class="gray ">返6.5%</span>
+						<a href="http://buy.etao.com/search.htm?id=673637418&partner=34" data-stat="etao.etao_sy.flsj.1.6" title="库巴" class="sub-link">库巴</a>&nbsp;&nbsp;<span class="gray  orange ">最高返63元</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=675216135" data-stat="etao.etao_sy.flsj.1.3" title="唯品会" class="sub-link">唯品会</a>&nbsp;&nbsp;<span class="gray ">返3%</span>
+						<a href="http://buy.etao.com/search.htm?id=741279496&partner=34" data-stat="etao.etao_sy.flsj.1.8" title="为为网" class="sub-link">为为网</a>&nbsp;&nbsp;<span class="gray  orange ">最高返2.5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=675097153" data-stat="etao.etao_sy.flsj.1.4" title="走秀" class="sub-link">走秀</a>&nbsp;&nbsp;<span class="gray ">最高返5%</span>
+						<a href="http://buy.etao.com/search.htm?id=654451787&partner=34" data-stat="etao.etao_sy.flsj.1.2" title="凡客" class="sub-link">凡客</a>&nbsp;&nbsp;<span class="gray  orange ">返6.5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=718298181" data-stat="etao.etao_sy.flsj.1.5" title="V+" class="sub-link">V+</a>&nbsp;&nbsp;<span class="gray ">返5.5%</span>
+						<a href="http://buy.etao.com/search.htm?id=675216135&partner=34" data-stat="etao.etao_sy.flsj.1.3" title="唯品会" class="sub-link">唯品会</a>&nbsp;&nbsp;<span class="gray  orange ">返3%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=673637418" data-stat="etao.etao_sy.flsj.1.6" title="库巴" class="sub-link">库巴</a>&nbsp;&nbsp;<span class="gray ">最高返63元</span>
+						<a href="http://buy.etao.com/search.htm?id=718298181&partner=34" data-stat="etao.etao_sy.flsj.1.5" title="V+" class="sub-link">V+</a>&nbsp;&nbsp;<span class="gray ">返3%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=776593060" data-stat="etao.etao_sy.flsj.1.7" title="汇美丽" class="sub-link">汇美丽</a>&nbsp;&nbsp;<span class="gray ">返10.5%</span>
+						<a href="http://buy.etao.com/search.htm?id=675097153&partner=34" data-stat="etao.etao_sy.flsj.1.4" title="走秀" class="sub-link">走秀</a>&nbsp;&nbsp;<span class="gray ">最高返5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=741279496" data-stat="etao.etao_sy.flsj.1.8" title="为为网" class="sub-link">为为网</a>&nbsp;&nbsp;<span class="gray  orange ">最高返1.5%</span>
+						<a href="http://buy.etao.com/search.htm?id=776593060&partner=34" data-stat="etao.etao_sy.flsj.1.7" title="汇美丽" class="sub-link">汇美丽</a>&nbsp;&nbsp;<span class="gray ">返10.5%</span>
 					</li>
 										
 				</ul>
@@ -4052,36 +4106,36 @@ DOM.html('#J_quan',arrHtml.join(''));
 			
 			<li class="item">
 				
-				<h3 class="brand-name"><a href="http://fanli.etao.com/" data-stat="" title="名品鞋包">名品鞋包</a></h3>
+				<h3 class="brand-name"><a href="http://fanli.etao.com/mall/index.htm" data-stat="" title="名品鞋包">名品鞋包</a></h3>
 				
 				
 				<p class="brand-rebate-amount"><span class="fl-second">3.0</span><span class="fl-three">%</span></p>
 				
 				
-				<a href="http://buy.etao.com/search.htm?id=734817728"  data-stat="etao.etao_sy.flsj.2.1" title="优购" class="brand-logo"><img src="http://img01.taobaocdn.com/tps/i1/T1nfPBXgNmXXcwTVc8-120-50.png" width="120" height="50" alt="优购"></a>
+				<a href="http://buy.etao.com/search.htm?id=734817728&partner=34"  data-stat="etao.etao_sy.flsj.2.1" title="优购" class="brand-logo"><img src="http://img01.taobaocdn.com/tps/i1/T1nfPBXgNmXXcwTVc8-120-50.png" width="120" height="50" alt="优购"></a>
 				
 				<ul class="business-list">
 					
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=675252741" data-stat="etao.etao_sy.flsj.2.8" title="乐淘" class="sub-link">乐淘</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
+						<a href="http://buy.etao.com/search.htm?id=675048068&partner=34" data-stat="etao.etao_sy.flsj.2.4" title="名鞋库" class="sub-link">名鞋库</a>&nbsp;&nbsp;<span class="gray  orange ">返7.7%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=654006441" data-stat="etao.etao_sy.flsj.2.7" title="D1优尚网" class="sub-link">D1优尚网</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
+						<a href="http://buy.etao.com/search.htm?id=675252741&partner=34" data-stat="etao.etao_sy.flsj.2.8" title="乐淘" class="sub-link">乐淘</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=714623038" data-stat="etao.etao_sy.flsj.2.3" title="骆驼官网" class="sub-link">骆驼官网</a>&nbsp;&nbsp;<span class="gray ">返18%</span>
+						<a href="http://buy.etao.com/search.htm?id=654006441&partner=34" data-stat="etao.etao_sy.flsj.2.7" title="D1优尚网" class="sub-link">D1优尚网</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=676088674" data-stat="etao.etao_sy.flsj.2.2" title="麦包包" class="sub-link">麦包包</a>&nbsp;&nbsp;<span class="gray ">返8%</span>
+						<a href="http://buy.etao.com/search.htm?id=714623038&partner=34" data-stat="etao.etao_sy.flsj.2.3" title="骆驼官网" class="sub-link">骆驼官网</a>&nbsp;&nbsp;<span class="gray ">返10%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=702654927" data-stat="etao.etao_sy.flsj.2.6" title="胡桃夹子" class="sub-link">胡桃夹子</a>&nbsp;&nbsp;<span class="gray ">返6.5%</span>
+						<a href="http://buy.etao.com/search.htm?id=676088674&partner=34" data-stat="etao.etao_sy.flsj.2.2" title="麦包包" class="sub-link">麦包包</a>&nbsp;&nbsp;<span class="gray  orange ">返8%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=675048068" data-stat="etao.etao_sy.flsj.2.4" title="名鞋库" class="sub-link">名鞋库</a>&nbsp;&nbsp;<span class="gray ">返7.7%</span>
+						<a href="http://buy.etao.com/search.htm?id=702654927&partner=34" data-stat="etao.etao_sy.flsj.2.6" title="胡桃夹子" class="sub-link">胡桃夹子</a>&nbsp;&nbsp;<span class="gray ">返6.5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=650554286" data-stat="etao.etao_sy.flsj.2.5" title="银泰百货" class="sub-link">银泰百货</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
+						<a href="http://buy.etao.com/search.htm?id=650554286&partner=34" data-stat="etao.etao_sy.flsj.2.5" title="银泰百货" class="sub-link">银泰百货</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
 					</li>
 										
 				</ul>
@@ -4089,36 +4143,36 @@ DOM.html('#J_quan',arrHtml.join(''));
 			
 			<li class="item">
 				
-				<h3 class="brand-name"><a href="http://fanli.etao.com/" data-stat="" title="美妆配饰">美妆配饰</a></h3>
+				<h3 class="brand-name"><a href="http://fanli.etao.com/mall/index.htm" data-stat="" title="美妆配饰">美妆配饰</a></h3>
 				
 				
-				<p class="brand-rebate-amount"><span class="fl-second">5.0</span><span class="fl-three">%</span></p>
+				<p class="brand-rebate-amount"><span class="fl-second">10.5</span><span class="fl-three">%</span></p>
 				
 				
-				<a href="http://buy.etao.com/search.htm?id=682490980&partner=41"  data-stat="etao.etao_sy.flsj.3.1" title="聚美优品" class="brand-logo"><img src="http://img04.taobaocdn.com/tps/i4/T1igLfXmpwXXXUSXc8-120-50.jpg" width="120" height="50" alt="聚美优品"></a>
+				<a href="http://buy.etao.com/search.htm?id=776593060&partner=34"  data-stat="etao.etao_sy.flsj.3.1" title="汇美丽" class="brand-logo"><img src="http://img02.taobaocdn.com/tps/i2/T1u7zHXm4pXXcwTVc8-120-50.png" width="120" height="50" alt="汇美丽"></a>
 				
 				<ul class="business-list">
 					
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=758936099" data-stat="etao.etao_sy.flsj.3.6" title="米奇网" class="sub-link">米奇网</a>&nbsp;&nbsp;<span class="gray ">返8%</span>
+						<a href="http://buy.etao.com/search.htm?id=698935566&partner=34" data-stat="etao.etao_sy.flsj.3.7" title="PBA" class="sub-link">PBA</a>&nbsp;&nbsp;<span class="gray  orange ">返15%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=729869201" data-stat="etao.etao_sy.flsj.3.2" title="NALA" class="sub-link">NALA</a>&nbsp;&nbsp;<span class="gray ">返8.5%</span>
+						<a href="http://buy.etao.com/search.htm?spm=0.0.0.72.638fae&id=679210592&partner=34" data-stat="etao.etao_sy.flsj.3.6" title="唯伊" class="sub-link">唯伊</a>&nbsp;&nbsp;<span class="gray ">返8%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=642196673" data-stat="etao.etao_sy.flsj.3.4" title="草莓派" class="sub-link">草莓派</a>&nbsp;&nbsp;<span class="gray ">返7%</span>
+						<a href="http://buy.etao.com/search.htm?id=729869201&partner=34" data-stat="etao.etao_sy.flsj.3.2" title="NALA" class="sub-link">NALA</a>&nbsp;&nbsp;<span class="gray ">返8.5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=772884101" data-stat="etao.etao_sy.flsj.3.5" title="小也商城" class="sub-link">小也商城</a>&nbsp;&nbsp;<span class="gray ">返15%</span>
+						<a href="http://buy.etao.com/search.htm?&id=678950468&partner=34" data-stat="etao.etao_sy.flsj.3.4" title="买好网" class="sub-link">买好网</a>&nbsp;&nbsp;<span class="gray ">返7.5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=795138124" data-stat="etao.etao_sy.flsj.3.8" title="知我药妆" class="sub-link">知我药妆</a>&nbsp;&nbsp;<span class="gray  orange ">返5.8%</span>
+						<a href="http://buy.etao.com/search.htm?id=772884101&partner=34" data-stat="etao.etao_sy.flsj.3.5" title="小也商城" class="sub-link">小也商城</a>&nbsp;&nbsp;<span class="gray ">返7.7%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=648194455" data-stat="etao.etao_sy.flsj.3.3" title="NO5" class="sub-link">NO5</a>&nbsp;&nbsp;<span class="gray ">返4%</span>
+						<a href="http://buy.etao.com/search.htm?id=795138124&partner=34" data-stat="etao.etao_sy.flsj.3.8" title="知我药妆" class="sub-link">知我药妆</a>&nbsp;&nbsp;<span class="gray  orange ">返4.5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=698935566" data-stat="etao.etao_sy.flsj.3.7" title="PBA" class="sub-link">PBA</a>&nbsp;&nbsp;<span class="gray  orange ">返30%</span>
+						<a href="http://buy.etao.com/search.htm?id=648194455&partner=34" data-stat="etao.etao_sy.flsj.3.3" title="NO5" class="sub-link">NO5</a>&nbsp;&nbsp;<span class="gray ">返8%</span>
 					</li>
 										
 				</ul>
@@ -4126,36 +4180,36 @@ DOM.html('#J_quan',arrHtml.join(''));
 			
 			<li class="item">
 				
-				<h3 class="brand-name"><a href="http://fanli.etao.com/" data-stat="" title="数码家电">数码家电</a></h3>
+				<h3 class="brand-name"><a href="http://fanli.etao.com/mall/index.htm" data-stat="" title="数码家电">数码家电</a></h3>
 				
 				
 				<p class="brand-rebate-amount"><span class="fl-second">63</span><span class="fl-three">元</span></p>
 				
 				
-				<a href="http://buy.etao.com/search.htm?id=673637418"  data-stat="etao.etao_sy.flsj.4.1" title="库巴商城" class="brand-logo"><img src="http://img01.taobaocdn.com/tps/i1/T1FjrCXcxqXXcwTVc8-120-50.png" width="120" height="50" alt="库巴商城"></a>
+				<a href="http://buy.etao.com/search.htm?id=673637418&partner=34"  data-stat="etao.etao_sy.flsj.4.1" title="库巴商城" class="brand-logo"><img src="http://img01.taobaocdn.com/tps/i1/T1FjrCXcxqXXcwTVc8-120-50.png" width="120" height="50" alt="库巴商城"></a>
 				
 				<ul class="business-list">
 					
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=699849176" data-stat="etao.etao_sy.flsj.4.6" title="飞虎乐购" class="sub-link">飞虎乐购</a>&nbsp;&nbsp;<span class="gray ">最高返72元</span>
+						<a href="http://buy.etao.com/search.htm?id=654139045&partner=34" data-stat="etao.etao_sy.flsj.4.7" title="国美电器" class="sub-link">国美电器</a>&nbsp;&nbsp;<span class="gray  orange ">全站返1%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=654139045" data-stat="etao.etao_sy.flsj.4.7" title="国美电器" class="sub-link">国美电器</a>&nbsp;&nbsp;<span class="gray  orange ">全站返1%</span>
+						<a href="http://buy.etao.com/search.htm?id=675505784&partner=34" data-stat="etao.etao_sy.flsj.4.3" title="高鸿商城" class="sub-link">高鸿商城</a>&nbsp;&nbsp;<span class="gray ">最高返70元</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=757861759" data-stat="etao.etao_sy.flsj.4.2" title="易迅" class="sub-link">易迅</a>&nbsp;&nbsp;<span class="gray ">最高返60元</span>
+						<a href="http://buy.etao.com/search.htm?id=757861759&partner=34" data-stat="etao.etao_sy.flsj.4.2" title="易迅" class="sub-link">易迅</a>&nbsp;&nbsp;<span class="gray  orange ">最高返60元</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=675505784" data-stat="etao.etao_sy.flsj.4.3" title="高鸿商城" class="sub-link">高鸿商城</a>&nbsp;&nbsp;<span class="gray ">最高返70元</span>
+						<a href="http://buy.etao.com/search.htm?id=648152336&partner=34" data-stat="etao.etao_sy.flsj.4.4" title="新蛋" class="sub-link">新蛋</a>&nbsp;&nbsp;<span class="gray ">最高返70元</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=648152336" data-stat="etao.etao_sy.flsj.4.4" title="新蛋" class="sub-link">新蛋</a>&nbsp;&nbsp;<span class="gray ">最高返70元</span>
+						<a href="http://buy.etao.com/search.htm?id=796451672&partner=34" data-stat="etao.etao_sy.flsj.4.8" title="新七天电器" class="sub-link">新七天电器</a>&nbsp;&nbsp;<span class="gray ">最高返46元</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=654037232" data-stat="etao.etao_sy.flsj.4.5" title="绿森" class="sub-link">绿森</a>&nbsp;&nbsp;<span class="gray ">最高返42元</span>
+						<a href="http://buy.etao.com/search.htm?id=699849176&partner=34" data-stat="etao.etao_sy.flsj.4.6" title="飞虎乐购" class="sub-link">飞虎乐购</a>&nbsp;&nbsp;<span class="gray ">最高返72元</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=796451672" data-stat="etao.etao_sy.flsj.4.8" title="新七天电器" class="sub-link">新七天电器</a>&nbsp;&nbsp;<span class="gray ">最高返46元</span>
+						<a href="http://buy.etao.com/search.htm?id=702998749&partner=34" data-stat="etao.etao_sy.flsj.4.5" title="米米乐" class="sub-link">米米乐</a>&nbsp;&nbsp;<span class="gray ">最高返50元</span>
 					</li>
 										
 				</ul>
@@ -4163,36 +4217,36 @@ DOM.html('#J_quan',arrHtml.join(''));
 			
 			<li class="item">
 				
-				<h3 class="brand-name"><a href="http://fanli.etao.com/" data-stat="" title="潮流服饰">潮流服饰</a></h3>
+				<h3 class="brand-name"><a href="http://fanli.etao.com/mall/index.htm" data-stat="" title="潮流服饰">潮流服饰</a></h3>
 				
 				
 				<p class="brand-rebate-amount"><span class="fl-second">5.7</span><span class="fl-three">%</span></p>
 				
 				
-				<a href="http://buy.etao.com/search.htm?id=648465386"  data-stat="etao.etao_sy.flsj.5.1" title="麦网" class="brand-logo"><img src="http://img01.taobaocdn.com/tps/i1/T1NhHkXbRuXXcwTVc8-120-50.png" width="120" height="50" alt="麦网"></a>
+				<a href="http://buy.etao.com/search.htm?id=648465386&partner=34"  data-stat="etao.etao_sy.flsj.5.1" title="麦网" class="brand-logo"><img src="http://img01.taobaocdn.com/tps/i1/T1NhHkXbRuXXcwTVc8-120-50.png" width="120" height="50" alt="麦网"></a>
 				
 				<ul class="business-list">
 					
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=674964877" data-stat="etao.etao_sy.flsj.5.3" title="上品折扣" class="sub-link">上品折扣</a>&nbsp;&nbsp;<span class="gray ">返3%</span>
+						<a href="http://buy.etao.com/search.htm?id=723558317&partner=34" data-stat="etao.etao_sy.flsj.5.4" title="唐狮" class="sub-link">唐狮</a>&nbsp;&nbsp;<span class="gray  orange ">返9%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=723558317" data-stat="etao.etao_sy.flsj.5.4" title="唐狮" class="sub-link">唐狮</a>&nbsp;&nbsp;<span class="gray ">返9%</span>
+						<a href="http://buy.etao.com/search.htm?id=695164402&partner=34" data-stat="etao.etao_sy.flsj.5.7" title="邦购" class="sub-link">邦购</a>&nbsp;&nbsp;<span class="gray ">返7%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=695164402" data-stat="etao.etao_sy.flsj.5.7" title="邦购" class="sub-link">邦购</a>&nbsp;&nbsp;<span class="gray ">返7%</span>
+						<a href="http://buy.etao.com/search.htm?id=675095511&partner=34" data-stat="etao.etao_sy.flsj.5.2" title="爱慕" class="sub-link">爱慕</a>&nbsp;&nbsp;<span class="gray ">返7%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=699873471" data-stat="etao.etao_sy.flsj.5.5" title="Justyle" class="sub-link">Justyle</a>&nbsp;&nbsp;<span class="gray ">返11%</span>
+						<a href="http://buy.etao.com/search.htm?id=674964877&partner=34" data-stat="etao.etao_sy.flsj.5.3" title="上品折扣" class="sub-link">上品折扣</a>&nbsp;&nbsp;<span class="gray  orange ">返3%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=675095511" data-stat="etao.etao_sy.flsj.5.2" title="爱慕" class="sub-link">爱慕</a>&nbsp;&nbsp;<span class="gray ">返6.5%</span>
+						<a href="http://buy.etao.com/search.htm?id=699873471&partner=34" data-stat="etao.etao_sy.flsj.5.5" title="Justyle" class="sub-link">Justyle</a>&nbsp;&nbsp;<span class="gray ">返7.5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=675049169" data-stat="etao.etao_sy.flsj.5.6" title="太平鸟" class="sub-link">太平鸟</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
+						<a href="http://buy.etao.com/search.htm?id=675049169&partner=34" data-stat="etao.etao_sy.flsj.5.6" title="太平鸟" class="sub-link">太平鸟</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=727084922" data-stat="etao.etao_sy.flsj.5.8" title="斯波帝卡" class="sub-link">斯波帝卡</a>&nbsp;&nbsp;<span class="gray ">返9%</span>
+						<a href="http://buy.etao.com/search.htm?id=674919404&partner=34" data-stat="etao.etao_sy.flsj.5.8" title="梦芭莎" class="sub-link">梦芭莎</a>&nbsp;&nbsp;<span class="gray ">返6%</span>
 					</li>
 										
 				</ul>
@@ -4200,36 +4254,36 @@ DOM.html('#J_quan',arrHtml.join(''));
 			
 			<li class="item">
 				
-				<h3 class="brand-name"><a href="http://fanli.etao.com/" data-stat="" title="食品百货">食品百货</a></h3>
+				<h3 class="brand-name"><a href="http://fanli.etao.com/mall/index.htm" data-stat="" title="食品百货">食品百货</a></h3>
 				
 				
 				<p class="brand-rebate-amount"><span class="fl-second">2.5</span><span class="fl-three">%</span></p>
 				
 				
-				<a href="http://buy.etao.com/search.htm?id=648195735"  data-stat="etao.etao_sy.flsj.6.1" title="一号店" class="brand-logo"><img src="http://img02.taobaocdn.com/tps/i2/T16o_wXj8rXXcwTVc8-120-50.png" width="120" height="50" alt="一号店"></a>
+				<a href="http://buy.etao.com/search.htm?id=648195735&partner=34"  data-stat="etao.etao_sy.flsj.6.1" title="一号店" class="brand-logo"><img src="http://img02.taobaocdn.com/tps/i2/T1wwDTXcBnXXcwTVc8-120-50.png" width="120" height="50" alt="一号店"></a>
 				
 				<ul class="business-list">
 					
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=675330051" data-stat="etao.etao_sy.flsj.6.2" title="中粮我买网" class="sub-link">中粮我买网</a>&nbsp;&nbsp;<span class="gray ">返4.5%</span>
+						<a href="http://buy.etao.com/search.htm?id=675330051&partner=34" data-stat="etao.etao_sy.flsj.6.2" title="中粮我买网" class="sub-link">中粮我买网</a>&nbsp;&nbsp;<span class="gray  orange ">返4.5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=650643066" data-stat="etao.etao_sy.flsj.6.3" title="趣玩网" class="sub-link">趣玩网</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
+						<a href="http://buy.etao.com/search.htm?id=650643066&partner=34" data-stat="etao.etao_sy.flsj.6.3" title="趣玩网" class="sub-link">趣玩网</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=675114245" data-stat="etao.etao_sy.flsj.6.4" title="悠品购物网" class="sub-link">悠品购物网</a>&nbsp;&nbsp;<span class="gray ">返10%</span>
+						<a href="http://buy.etao.com/search.htm?id=675114245&partner=34" data-stat="etao.etao_sy.flsj.6.4" title="悠品购物网" class="sub-link">悠品购物网</a>&nbsp;&nbsp;<span class="gray ">返10%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=699719012" data-stat="etao.etao_sy.flsj.6.5" title="酒仙网" class="sub-link">酒仙网</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
+						<a href="http://buy.etao.com/search.htm?id=699719012&partner=34" data-stat="etao.etao_sy.flsj.6.5" title="酒仙网" class="sub-link">酒仙网</a>&nbsp;&nbsp;<span class="gray ">返5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=693835347" data-stat="etao.etao_sy.flsj.6.6" title="文轩网" class="sub-link">文轩网</a>&nbsp;&nbsp;<span class="gray ">最高返5%</span>
+						<a href="http://buy.etao.com/search.htm?id=693835347&partner=34" data-stat="etao.etao_sy.flsj.6.6" title="文轩网" class="sub-link">文轩网</a>&nbsp;&nbsp;<span class="gray ">最高返5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=654381735" data-stat="etao.etao_sy.flsj.6.7" title="蔚蓝书城" class="sub-link">蔚蓝书城</a>&nbsp;&nbsp;<span class="gray ">返3%</span>
+						<a href="http://buy.etao.com/search.htm?id=654381735&partner=34" data-stat="etao.etao_sy.flsj.6.7" title="蔚蓝书城" class="sub-link">蔚蓝书城</a>&nbsp;&nbsp;<span class="gray ">返3%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=871831509" data-stat="etao.etao_sy.flsj.6.8" title="博洋家纺" class="sub-link">博洋家纺</a>&nbsp;&nbsp;<span class="gray ">返12.5%</span>
+						<a href="http://buy.etao.com/search.htm?id=871831509&partner=34" data-stat="etao.etao_sy.flsj.6.8" title="博洋家纺" class="sub-link">博洋家纺</a>&nbsp;&nbsp;<span class="gray ">返12.5%</span>
 					</li>
 										
 				</ul>
@@ -4237,36 +4291,36 @@ DOM.html('#J_quan',arrHtml.join(''));
 			
 			<li class="item">
 				
-				<h3 class="brand-name"><a href="http://fanli.etao.com/" data-stat="" title="母婴健康">母婴健康</a></h3>
+				<h3 class="brand-name"><a href="http://fanli.etao.com/mall/index.htm" data-stat="" title="母婴健康">母婴健康</a></h3>
 				
 				
 				<p class="brand-rebate-amount"><span class="fl-second">3.6</span><span class="fl-three">%</span></p>
 				
 				
-				<a href="http://buy.etao.com/search.htm?id=796715460"  data-stat="etao.etao_sy.flsj.7.1" title="818医药网" class="brand-logo"><img src="http://img03.taobaocdn.com/tps/i3/T14vHxXaprXXcwTVc8-120-50.png" width="120" height="50" alt="818医药网"></a>
+				<a href="http://buy.etao.com/search.htm?id=796715460&partner=34"  data-stat="etao.etao_sy.flsj.7.1" title="818医药网" class="brand-logo"><img src="http://img03.taobaocdn.com/tps/i3/T14vHxXaprXXcwTVc8-120-50.png" width="120" height="50" alt="818医药网"></a>
 				
 				<ul class="business-list">
 					
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=654218086" data-stat="etao.etao_sy.flsj.7.2" title="红孩子" class="sub-link">红孩子</a>&nbsp;&nbsp;<span class="gray ">返1.5%</span>
+						<a href="http://buy.etao.com/search.htm?id=654218086&partner=34" data-stat="etao.etao_sy.flsj.7.2" title="红孩子" class="sub-link">红孩子</a>&nbsp;&nbsp;<span class="gray  orange ">返1.5%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=665063469" data-stat="etao.etao_sy.flsj.7.4" title="壹号药房" class="sub-link">壹号药房</a>&nbsp;&nbsp;<span class="gray ">返6%</span>
+						<a href="http://buy.etao.com/search.htm?id=665063469&partner=34" data-stat="etao.etao_sy.flsj.7.4" title="壹号药房" class="sub-link">壹号药房</a>&nbsp;&nbsp;<span class="gray ">返6%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=656361014" data-stat="etao.etao_sy.flsj.7.3" title="母婴之家" class="sub-link">母婴之家</a>&nbsp;&nbsp;<span class="gray ">返4%</span>
+						<a href="http://buy.etao.com/search.htm?id=656361014&partner=34" data-stat="etao.etao_sy.flsj.7.3" title="母婴之家" class="sub-link">母婴之家</a>&nbsp;&nbsp;<span class="gray ">返4%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=818628693" data-stat="etao.etao_sy.flsj.7.5" title="八百方" class="sub-link">八百方</a>&nbsp;&nbsp;<span class="gray ">返1.2%</span>
+						<a href="http://buy.etao.com/search.htm?id=818628693&partner=34" data-stat="etao.etao_sy.flsj.7.5" title="八百方" class="sub-link">八百方</a>&nbsp;&nbsp;<span class="gray ">返1.2%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=717277315" data-stat="etao.etao_sy.flsj.7.6" title="绿盒子" class="sub-link">绿盒子</a>&nbsp;&nbsp;<span class="gray ">返6%</span>
+						<a href="http://buy.etao.com/search.htm?id=717277315&partner=34" data-stat="etao.etao_sy.flsj.7.6" title="绿盒子" class="sub-link">绿盒子</a>&nbsp;&nbsp;<span class="gray ">返6%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=676562184" data-stat="etao.etao_sy.flsj.7.7" title="乐友" class="sub-link">乐友</a>&nbsp;&nbsp;<span class="gray ">返2.2%</span>
+						<a href="http://buy.etao.com/search.htm?id=676562184&partner=34" data-stat="etao.etao_sy.flsj.7.7" title="乐友" class="sub-link">乐友</a>&nbsp;&nbsp;<span class="gray ">返2.2%</span>
 					</li>
 										<li class="sub-item">
-						<a href="http://buy.etao.com/search.htm?id=554057264" data-stat="etao.etao_sy.flsj.7.8" title="开心人大药房" class="sub-link">开心人大药房</a>&nbsp;&nbsp;<span class="gray ">返9%</span>
+						<a href="http://buy.etao.com/search.htm?id=554057264&partner=34" data-stat="etao.etao_sy.flsj.7.8" title="开心人大药房" class="sub-link">开心人大药房</a>&nbsp;&nbsp;<span class="gray ">返9%</span>
 					</li>
 										
 				</ul>
@@ -4278,10 +4332,10 @@ DOM.html('#J_quan',arrHtml.join(''));
       <div class="rebates-banner">
     <div class="bd">
     
-    <a href="http://www.taobao.com/go/act/2012/autumn/yg.php?ad_id=&am_id=1301031853498740decb&cm_id=&pm_id=" data-stat="etao.etao_sy.gg.2" title="淘宝血拼季" class="banner990"><img src="http://img02.taobaocdn.com/tps/i2/T1.W_LXdNmXXbt.h_s-990-90.png" width="990" height="90" alt="淘宝血拼季"></a>
+    <a href="http://www.taobao.com/go/act/sale/kdmj.php?ad_id=&am_id=13010363848ad5773c26&cm_id=&pm_id=" data-stat="etao.etao_sy.gg.2" title="跨店满减主会场" class="banner990"><img src="http://img01.taobaocdn.com/tps/i1/T1jBbUXddjXXbt.h_s-990-90.png" width="990" height="90" alt="跨店满减主会场"></a>
     
     
-    <a href="http://www.etao.com/go/act/etao/2012083002.php" data-stat="etao.etao_sy.gg.3" title="完美美妆术" class="banner200"><img src="http://img04.taobaocdn.com/tps/i4/T1sS_KXoVjXXa_OF6h-200-90.png" width="200" height="90" alt="完美美妆术"></a>
+    <a href="http://ok.etao.com/sale.htm?" data-stat="etao.etao_sy.gg.3" title="一淘优惠购" class="banner200"><img src="http://img04.taobaocdn.com/tps/i4/T1ip6VXhXjXXcvMF6h-200-90.jpg" width="200" height="90" alt="一淘优惠购"></a>
     
     </div>
 </div>
@@ -4312,60 +4366,60 @@ DOM.html('#J_quan',arrHtml.join(''));
             
                          <li>
                 <div class="faxian-bd-t">
-                    <a title="小左小右爱蕾丝" href="http://like.etao.com/channel.htm?id=106" data-stat="etao.etao_sy.ytfx.nr.title.1" class="J_FaSubTitle text-hide  stress-red ">小左小右爱蕾丝</a>
-                    <div class="faxian-bd-tag"><span>1568个宝贝</span><span>959人关注</span></div>
+                    <a title="型男撞色配搭风" href="http://like.etao.com/channel.htm?id=499" data-stat="etao.etao_sy.ytfx.nr.title.1" class="J_FaSubTitle text-hide  stress-red ">型男撞色配搭风</a>
+                    <div class="faxian-bd-tag"><span>302个宝贝</span><span>300人关注</span></div>
                 </div>
                 <div class="faxian-img">
-                    <a class="J_FaLink" href="http://like.etao.com/channel.htm?id=106" title="小左小右爱蕾丝"  data-stat="etao.etao_sy.ytfx.nr.pic.1" >
-                        <img width="216px" height="216px" src="http://img1.tbcdn.cn/L1/78/1234/preview_106.jpg" alt="小左小右爱蕾丝">
+                    <a class="J_FaLink" href="http://like.etao.com/channel.htm?id=499" title="型男撞色配搭风"  data-stat="etao.etao_sy.ytfx.nr.pic.1" >
+                        <img width="216px" height="216px" src="http://img1.tbcdn.cn/L1/78/1234/preview_499.jpg" alt="型男撞色配搭风">
                         <div class="faxian-img-cover J_FaXianCover"></div>
                     </a>
                 </div>
             </li>
                         <li>
                 <div class="faxian-bd-t">
-                    <a title="裙边开叉女人味" href="http://like.etao.com/channel.htm?id=277" data-stat="etao.etao_sy.ytfx.nr.title.2" class="J_FaSubTitle text-hide ">裙边开叉女人味</a>
-                    <div class="faxian-bd-tag"><span>326个宝贝</span><span>1544人关注</span></div>
+                    <a title="森女都爱小蕾丝" href="http://like.etao.com/channel.htm?id=498" data-stat="etao.etao_sy.ytfx.nr.title.2" class="J_FaSubTitle text-hide ">森女都爱小蕾丝</a>
+                    <div class="faxian-bd-tag"><span>890个宝贝</span><span>574人关注</span></div>
                 </div>
                 <div class="faxian-img">
-                    <a class="J_FaLink" href="http://like.etao.com/channel.htm?id=277" title="裙边开叉女人味"  data-stat="etao.etao_sy.ytfx.nr.pic.2" >
-                        <img width="216px" height="216px" src="http://img1.tbcdn.cn/L1/78/1234/preview_277.jpg" alt="裙边开叉女人味">
+                    <a class="J_FaLink" href="http://like.etao.com/channel.htm?id=498" title="森女都爱小蕾丝"  data-stat="etao.etao_sy.ytfx.nr.pic.2" >
+                        <img width="216px" height="216px" src="http://img1.tbcdn.cn/L1/78/1234/preview_498.jpg" alt="森女都爱小蕾丝">
                         <div class="faxian-img-cover J_FaXianCover"></div>
                     </a>
                 </div>
             </li>
                         <li>
                 <div class="faxian-bd-t">
-                    <a title="型男工装起义" href="http://like.etao.com/channel.htm?id=437" data-stat="etao.etao_sy.ytfx.nr.title.3" class="J_FaSubTitle text-hide ">型男工装起义</a>
-                    <div class="faxian-bd-tag"><span>297个宝贝</span><span>336人关注</span></div>
+                    <a title="麻豆模仿秀" href="http://like.etao.com/channel.htm?id=404" data-stat="etao.etao_sy.ytfx.nr.title.3" class="J_FaSubTitle text-hide ">麻豆模仿秀</a>
+                    <div class="faxian-bd-tag"><span>623个宝贝</span><span>566人关注</span></div>
                 </div>
                 <div class="faxian-img">
-                    <a class="J_FaLink" href="http://like.etao.com/channel.htm?id=437" title="型男工装起义"  data-stat="etao.etao_sy.ytfx.nr.pic.3" >
-                        <img width="216px" height="216px" src="http://img1.tbcdn.cn/L1/78/1234/preview_437.jpg" alt="型男工装起义">
+                    <a class="J_FaLink" href="http://like.etao.com/channel.htm?id=404" title="麻豆模仿秀"  data-stat="etao.etao_sy.ytfx.nr.pic.3" >
+                        <img width="216px" height="216px" src="http://img1.tbcdn.cn/L1/78/1234/preview_404.jpg" alt="麻豆模仿秀">
                         <div class="faxian-img-cover J_FaXianCover"></div>
                     </a>
                 </div>
             </li>
                         <li>
                 <div class="faxian-bd-t">
-                    <a title="80后记忆中的美食" href="http://like.etao.com/channel.htm?id=365" data-stat="etao.etao_sy.ytfx.nr.title.4" class="J_FaSubTitle text-hide ">80后记忆中的美食</a>
-                    <div class="faxian-bd-tag"><span>476个宝贝</span><span>308人关注</span></div>
+                    <a title="姐妹淘的驻颜小食" href="http://like.etao.com/channel.htm?id=451" data-stat="etao.etao_sy.ytfx.nr.title.4" class="J_FaSubTitle text-hide ">姐妹淘的驻颜小食</a>
+                    <div class="faxian-bd-tag"><span>340个宝贝</span><span>382人关注</span></div>
                 </div>
                 <div class="faxian-img">
-                    <a class="J_FaLink" href="http://like.etao.com/channel.htm?id=365" title="80后记忆中的美食"  data-stat="etao.etao_sy.ytfx.nr.pic.4" >
-                        <img width="216px" height="216px" src="http://img1.tbcdn.cn/L1/78/1234/preview_365.jpg" alt="80后记忆中的美食">
+                    <a class="J_FaLink" href="http://like.etao.com/channel.htm?id=451" title="姐妹淘的驻颜小食"  data-stat="etao.etao_sy.ytfx.nr.pic.4" >
+                        <img width="216px" height="216px" src="http://img1.tbcdn.cn/L1/78/1234/preview_451.jpg" alt="姐妹淘的驻颜小食">
                         <div class="faxian-img-cover J_FaXianCover"></div>
                     </a>
                 </div>
             </li>
                         <li>
                 <div class="faxian-bd-t">
-                    <a title="宅生活也能玩创意" href="http://like.etao.com/channel.htm?id=413" data-stat="etao.etao_sy.ytfx.nr.title.5" class="J_FaSubTitle text-hide ">宅生活也能玩创意</a>
-                    <div class="faxian-bd-tag"><span>424个宝贝</span><span>614人关注</span></div>
+                    <a title="雪纺装扮靓准妈妈" href="http://like.etao.com/channel.htm?id=449" data-stat="etao.etao_sy.ytfx.nr.title.5" class="J_FaSubTitle text-hide ">雪纺装扮靓准妈妈</a>
+                    <div class="faxian-bd-tag"><span>330个宝贝</span><span>236人关注</span></div>
                 </div>
                 <div class="faxian-img">
-                    <a class="J_FaLink" href="http://like.etao.com/channel.htm?id=413" title="宅生活也能玩创意"  data-stat="etao.etao_sy.ytfx.nr.pic.5" >
-                        <img width="216px" height="216px" src="http://img1.tbcdn.cn/L1/78/1234/preview_413.jpg" alt="宅生活也能玩创意">
+                    <a class="J_FaLink" href="http://like.etao.com/channel.htm?id=449" title="雪纺装扮靓准妈妈"  data-stat="etao.etao_sy.ytfx.nr.pic.5" >
+                        <img width="216px" height="216px" src="http://img1.tbcdn.cn/L1/78/1234/preview_449.jpg" alt="雪纺装扮靓准妈妈">
                         <div class="faxian-img-cover J_FaXianCover"></div>
                     </a>
                 </div>
@@ -4374,9 +4428,14 @@ DOM.html('#J_quan',arrHtml.join(''));
         </ul>
     </div>
 </div>
-      <p id="quicklink" class="quicklink">
+      <style>
+  .quicklink  .quick-title,  .quicklink  .quick-title:hover {
+         padding:0;
+}
+</style>
+<p id="quicklink" class="quicklink">
     
-    快速链接：
+    <a class="quick-title" href="http://product.etao.com/" title="商品分类" data-stat="">商品分类</a>：
     
     
         <a href="http://www.etao.com/product/electrical.html" title="生活电器" data-stat="">生活电器</a>
@@ -4421,18 +4480,14 @@ KISSY.ready(function(S) {
 	S.SidePannel.init({show:'all',channel:'当前页面'});
 });
 </script>	
-<script src="http://a.tbcdn.cn/apps/e/ehome/120824/ehome.js"></script>
+<script src="http://a.tbcdn.cn/apps/e/ehome/120920/ehome.js"></script>
 <div style="display:none">
 <!--cnzz埋点-->
 
 <script src="http://w.cnzz.com/c.php?id=30051494&l=3" ansyc="ansyc"></script>
 <script src='http://w.cnzz.com/c.php?id=30051888&l=3' ansyc="ansyc"></script>
-<!--
-<script src="http://w.cnzz.com/c.php?id=30051494&l=3" ansyc="ansyc"></script>
-<script src='http://w.cnzz.com/c.php?id=30051888&l=3' ansyc="ansyc"></script>
--->
 </div>
-<div id="server-num" style="color: #fff !important;background-color:#fff;">v022003.cm6</div>	
+<div id="server-num" style="color: #fff !important;background-color:#fff;">v009115.cm8</div>	
 <div id="J_PvStat" data-stat="p_type=etao_sy"></div>
 <noscript><img style="position:absolute;top:0;left:0;" src="http://www.atpanel.com/ued.1.1.2?type=9&_gm:id=ada_etao_home_nojs"/></noscript>
 </body>
