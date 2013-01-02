@@ -1,0 +1,14 @@
+<!doctype html>
+<meta charset="gbk">
+<title>中文</title>
+<input id="a" size="70"/>
+<input id="i" size="70"/>
+<script>
+    var a = document.createElement('a');
+    a.href = '?中';
+    document.getElementById('a').value = a.href;
+
+    var i = document.createElement('img');
+    i.src = '?中';
+    document.getElementById('i').value = i.src;
+</script>
