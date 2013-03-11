@@ -1,0 +1,10 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>performance.now</title>
+<div id="ret"></div>
+<script>
+    setTimeout(function() {
+        ducument.getElementById('ret').innerHTML = 'Date: ' + Date.now() +
+            ', Performance.now: ' + (performance.timing.navigationStart + performance.now());
+    }, 5);
+</script>

@@ -1,0 +1,38 @@
+@background:            #ffe749;
+/*@background:            hsv(52, 71%, 100%);*/
+
+/**
+ * RGB to HSV(HSB)
+ * Ref: http://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript
+ **/
+@bgR:                   red(@background);
+@bgG:                   green(@background);
+@bgB:                   blue(@background);
+@hsvH:                  unit(`this.r=@{bgR}/255,this.g=@{bgG}/255,this.b=@{bgB}/255,this.max=Math.max(this.r,this.g,this.b),this.min=Math.min(this.r,this.g,this.b),this.d=this.max-this.min,this.max===this.min?this.h=0:this.max===this.r?this.h=(this.g-this.b)/this.d+(this.g<this.b?6:0):this.max===this.g?this.h=(this.b-this.r)/this.d+2:this.h=(this.r-this.g)/this.d+4,this.h*60`);
+@hsvS:                  unit(`this.r=@{bgR}/255,this.g=@{bgG}/255,this.b=@{bgB}/255,this.max=Math.max(this.r,this.g,this.b),this.min=Math.min(this.r,this.g,this.b),this.d=this.max-this.min,this.max===0?0:this.d/this.max`);
+@hsvV:                  unit(`this.r=@{bgR}/255,this.g=@{bgG}/255,this.b=@{bgB}/255,Math.max(this.r,this.g,this.b)`);
+
+/*@origin:                hsv(@hsvH, @hsvS, @hsvV);*/
+@grayDark:              hsv(@hsvH, @hsvS, @hsvV - 0.8);
+@gray:                  hsv(@hsvH, @hsvS, @hsvV - 0.6);
+@grayLight:             hsv(@hsvH, @hsvS, @hsvV - 0.4);
+@grayLighter:           hsv(@hsvH, @hsvS, @hsvV - 0.2);
+@silverDark:            hsv(@hsvH, @hsvS, @hsvV - 0.16);
+@silver:                hsv(@hsvH, @hsvS, @hsvV - 0.08);
+@silverLight:           hsv(@hsvH, @hsvS, @hsvV - 0.04);
+@silverLighter:         hsv(@hsvH, @hsvS, @hsvV - 0.02);
+
+body {
+    hsv-h: @hsvH;
+    hsv-s: @hsvS;
+    hsv-v: @hsvV;
+    color: @grayDark;
+    color: @gray;
+    color: @grayLight;
+    color: @grayLighter;
+    color: @silverDark;
+    color: @silver;
+    color: @silverLight;
+    color: @silverLighter;
+    background: @background;
+}
